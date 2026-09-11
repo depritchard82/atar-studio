@@ -1,0 +1,6221 @@
+{
+  "source": "https://atar-navigator.qtac.edu.au/",
+  "modelYear": "2025",
+  "summary": {
+    "n": 100,
+    "inside": 75,
+    "above": 20,
+    "below": 5,
+    "meanDistance": 0.12800000000000003,
+    "maxDistance": 1.55,
+    "meanMidpointDifference": 0.8447500000000002
+  },
+  "profileTypes": [
+    {
+      "label": "Equal scores",
+      "n": 50,
+      "inside": 30,
+      "above": 15,
+      "below": 5,
+      "meanDistance": 0.22700000000000004,
+      "maxDistance": 1.55,
+      "meanMidpointDifference": 0.6799999999999998
+    },
+    {
+      "label": "Varied scores",
+      "n": 50,
+      "inside": 45,
+      "above": 5,
+      "below": 0,
+      "meanDistance": 0.029000000000000005,
+      "maxDistance": 0.55,
+      "meanMidpointDifference": 1.0095
+    }
+  ],
+  "groups": [
+    {
+      "group": 1,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "n": 10,
+      "inside": 3,
+      "above": 7,
+      "below": 0,
+      "meanDistance": 0.26,
+      "maxDistance": 0.65,
+      "meanMidpointDifference": 2.2775
+    },
+    {
+      "group": 2,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "n": 10,
+      "inside": 8,
+      "above": 1,
+      "below": 1,
+      "meanDistance": 0.18,
+      "maxDistance": 1.55,
+      "meanMidpointDifference": 0.10750000000000007
+    },
+    {
+      "group": 3,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "n": 10,
+      "inside": 6,
+      "above": 4,
+      "below": 0,
+      "meanDistance": 0.19,
+      "maxDistance": 0.85,
+      "meanMidpointDifference": 1.7149999999999999
+    },
+    {
+      "group": 4,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "n": 10,
+      "inside": 8,
+      "above": 1,
+      "below": 1,
+      "meanDistance": 0.13999999999999999,
+      "maxDistance": 1.2,
+      "meanMidpointDifference": 0.10250000000000004
+    },
+    {
+      "group": 5,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "n": 10,
+      "inside": 9,
+      "above": 1,
+      "below": 0,
+      "meanDistance": 0.025,
+      "maxDistance": 0.25,
+      "meanMidpointDifference": 0.86
+    },
+    {
+      "group": 6,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "n": 10,
+      "inside": 8,
+      "above": 1,
+      "below": 1,
+      "meanDistance": 0.125,
+      "maxDistance": 1.1,
+      "meanMidpointDifference": 0.08249999999999995
+    },
+    {
+      "group": 7,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "n": 10,
+      "inside": 7,
+      "above": 3,
+      "below": 0,
+      "meanDistance": 0.06000000000000001,
+      "maxDistance": 0.3,
+      "meanMidpointDifference": 2.005
+    },
+    {
+      "group": 8,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "n": 10,
+      "inside": 8,
+      "above": 0,
+      "below": 2,
+      "meanDistance": 0.2,
+      "maxDistance": 1.3,
+      "meanMidpointDifference": -0.36500000000000005
+    },
+    {
+      "group": 9,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "n": 10,
+      "inside": 9,
+      "above": 1,
+      "below": 0,
+      "meanDistance": 0.05500000000000001,
+      "maxDistance": 0.55,
+      "meanMidpointDifference": 0.8625
+    },
+    {
+      "group": 10,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "n": 10,
+      "inside": 9,
+      "above": 1,
+      "below": 0,
+      "meanDistance": 0.045,
+      "maxDistance": 0.45,
+      "meanMidpointDifference": 0.7999999999999999
+    }
+  ],
+  "worstCases": [
+    11,
+    71,
+    31,
+    51,
+    25,
+    72,
+    4,
+    29,
+    85,
+    5
+  ],
+  "results": [
+    {
+      "id": 1,
+      "group": 1,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        33.2,
+        42.35
+      ],
+      "observedAt": "2026-09-11T12:36:36.545Z",
+      "aggregate": 210.65063597494344,
+      "atar": 39.6,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 55,
+          "scaled": 67.82188155057526,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 55,
+          "scaled": 23.528441668884636,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 55,
+          "scaled": 17.770375683965625,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 55,
+          "scaled": 58.97355228227479,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.825
+    },
+    {
+      "id": 2,
+      "group": 1,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        59.35,
+        66.4
+      ],
+      "observedAt": "2026-09-11T12:36:42.274Z",
+      "aggregate": 306.0409028326495,
+      "atar": 66.75,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 65,
+          "scaled": 80.50702781997286,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 65,
+          "scaled": 49.00360135833989,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 65,
+          "scaled": 41.669840439686595,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 65,
+          "scaled": 75.5163499015644,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.35,
+      "midpointDifference": 3.875
+    },
+    {
+      "id": 3,
+      "group": 1,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        78.5,
+        83.4
+      ],
+      "observedAt": "2026-09-11T12:36:43.647Z",
+      "aggregate": 395.3263491005347,
+      "atar": 83.7,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 75,
+          "scaled": 89.00015554756469,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 75,
+          "scaled": 75.006637533724,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 75,
+          "scaled": 70.25059215443216,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 75,
+          "scaled": 86.87080009229068,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.3,
+      "midpointDifference": 2.75
+    },
+    {
+      "id": 4,
+      "group": 1,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        90.25,
+        93.25
+      ],
+      "observedAt": "2026-09-11T12:36:45.026Z",
+      "aggregate": 451.47443739169137,
+      "atar": 93.9,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 85,
+          "scaled": 94.06311517133302,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 85,
+          "scaled": 90.3586965656632,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 85,
+          "scaled": 88.64245276077169,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 85,
+          "scaled": 93.41541806841002,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.65,
+      "midpointDifference": 2.15
+    },
+    {
+      "id": 5,
+      "group": 1,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        96.5,
+        98.1
+      ],
+      "observedAt": "2026-09-11T12:36:46.413Z",
+      "aggregate": 478.4224047699386,
+      "atar": 98.55,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 95,
+          "scaled": 96.87486083762418,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 95,
+          "scaled": 96.69555581695006,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 95,
+          "scaled": 96.26644992661276,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 95,
+          "scaled": 96.8139312173372,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.45,
+      "midpointDifference": 1.25
+    },
+    {
+      "id": 6,
+      "group": 1,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        76,
+        87,
+        98,
+        65,
+        76
+      ],
+      "range": [
+        81.15,
+        84.15
+      ],
+      "observedAt": "2026-09-11T12:36:48.236Z",
+      "aggregate": 397.26054007337984,
+      "atar": 84.05,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 76,
+          "scaled": 75.47473219706373,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 87,
+          "scaled": 94.77029659160316,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 98,
+          "scaled": 97.62881585908737,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 65,
+          "scaled": 41.669840439686595,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 76,
+          "scaled": 87.71685498593898,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.4
+    },
+    {
+      "id": 7,
+      "group": 1,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        89,
+        56,
+        67,
+        78,
+        89
+      ],
+      "range": [
+        75.8,
+        81.35
+      ],
+      "observedAt": "2026-09-11T12:36:50.500Z",
+      "aggregate": 384.3207544621162,
+      "atar": 81.75,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 89,
+          "scaled": 88.13480803828372,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 56,
+          "scaled": 69.27215775567798,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 67,
+          "scaled": 54.68389223992729,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 78,
+          "scaled": 77.16975800120288,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 89,
+          "scaled": 95.06013842702436,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.4,
+      "midpointDifference": 3.175
+    },
+    {
+      "id": 8,
+      "group": 1,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        58,
+        69,
+        80,
+        91,
+        58
+      ],
+      "range": [
+        75.25,
+        79.85
+      ],
+      "observedAt": "2026-09-11T12:36:52.350Z",
+      "aggregate": 374.60607767771194,
+      "atar": 80.05,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 58,
+          "scaled": 47.589054562342355,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 69,
+          "scaled": 84.38704846630647,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 80,
+          "scaled": 84.13572399273964,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 91,
+          "scaled": 94.11349153621131,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 58,
+          "scaled": 64.38075912011213,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.2,
+      "midpointDifference": 2.5
+    },
+    {
+      "id": 9,
+      "group": 1,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        71,
+        82,
+        93,
+        60,
+        71
+      ],
+      "range": [
+        75.85,
+        79.25
+      ],
+      "observedAt": "2026-09-11T12:36:54.145Z",
+      "aggregate": 368.58502026515424,
+      "atar": 78.95,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 71,
+          "scaled": 68.67729874070858,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 82,
+          "scaled": 92.83250183537783,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 93,
+          "scaled": 95.88540866267282,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 60,
+          "scaled": 28.20815572255292,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 71,
+          "scaled": 82.98165530384213,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.4
+    },
+    {
+      "id": 10,
+      "group": 1,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Engineering"
+      ],
+      "scores": [
+        84,
+        95,
+        62,
+        73,
+        84
+      ],
+      "range": [
+        76.25,
+        80.65
+      ],
+      "observedAt": "2026-09-11T12:36:55.983Z",
+      "aggregate": 379.51654831806377,
+      "atar": 80.9,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 84,
+          "scaled": 84.10969807040595,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 95,
+          "scaled": 96.87486083762418,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 62,
+          "scaled": 40.57617094243329,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 73,
+          "scaled": 65.02515931494946,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 84,
+          "scaled": 92.93065915265089,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.25,
+      "midpointDifference": 2.45
+    },
+    {
+      "id": 11,
+      "group": 2,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        45.1,
+        48.35
+      ],
+      "observedAt": "2026-09-11T12:37:05.790Z",
+      "aggregate": 223.88871534978745,
+      "atar": 43.55,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 55,
+          "scaled": 43.10700710347976,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 55,
+          "scaled": 42.3654687685213,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 55,
+          "scaled": 49.494314840103755,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 55,
+          "scaled": 46.365539848439475,
+          "counted": true
+        }
+      ],
+      "rangeDistance": -1.55,
+      "midpointDifference": -3.175
+    },
+    {
+      "id": 12,
+      "group": 2,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        63.4,
+        65.8
+      ],
+      "observedAt": "2026-09-11T12:37:10.612Z",
+      "aggregate": 295.8124847306572,
+      "atar": 65.05,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 65,
+          "scaled": 54.901144559733076,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 65,
+          "scaled": 56.06276758002351,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 65,
+          "scaled": 63.44448250716403,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 65,
+          "scaled": 62.06000677065081,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.45
+    },
+    {
+      "id": 13,
+      "group": 2,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        75.7,
+        78.1
+      ],
+      "observedAt": "2026-09-11T12:37:15.135Z",
+      "aggregate": 360.2967396293783,
+      "atar": 77.5,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 75,
+          "scaled": 66.17036710180446,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 75,
+          "scaled": 68.89522115260642,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 75,
+          "scaled": 75.45286843505795,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 75,
+          "scaled": 75.58011916738626,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.6
+    },
+    {
+      "id": 14,
+      "group": 2,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        84.4,
+        86.65
+      ],
+      "observedAt": "2026-09-11T12:37:19.962Z",
+      "aggregate": 410.1139120547629,
+      "atar": 86.4,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 85,
+          "scaled": 75.86333014668615,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 85,
+          "scaled": 79.36012384664026,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 85,
+          "scaled": 84.48185461398137,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 85,
+          "scaled": 85.41384862194171,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.875
+    },
+    {
+      "id": 15,
+      "group": 2,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        90.45,
+        92.4
+      ],
+      "observedAt": "2026-09-11T12:37:25.278Z",
+      "aggregate": 444.5413082068751,
+      "atar": 92.65,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 95,
+          "scaled": 83.47464506708852,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 95,
+          "scaled": 86.97068491851121,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 95,
+          "scaled": 90.60387508703421,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 95,
+          "scaled": 91.72049616282678,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.25,
+      "midpointDifference": 1.225
+    },
+    {
+      "id": 16,
+      "group": 2,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        93,
+        63,
+        77,
+        91,
+        61
+      ],
+      "range": [
+        76,
+        77.9
+      ],
+      "observedAt": "2026-09-11T12:37:30.082Z",
+      "aggregate": 358.8070517207731,
+      "atar": 77.25,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 93,
+          "scaled": 90.6890994534896,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 63,
+          "scaled": 52.54382653963388,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 77,
+          "scaled": 71.20849069788805,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 91,
+          "scaled": 88.4680601581064,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 61,
+          "scaled": 55.897574871655124,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.3
+    },
+    {
+      "id": 17,
+      "group": 2,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        62,
+        76,
+        90,
+        60,
+        74
+      ],
+      "range": [
+        71.35,
+        73.75
+      ],
+      "observedAt": "2026-09-11T12:37:34.955Z",
+      "aggregate": 336.08058329904986,
+      "atar": 72.75,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 62,
+          "scaled": 54.357933531804385,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 76,
+          "scaled": 67.22373032749748,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 90,
+          "scaled": 83.51481171482142,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 60,
+          "scaled": 56.60002993189793,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 74,
+          "scaled": 74.38407779302862,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.2
+    },
+    {
+      "id": 18,
+      "group": 2,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        75,
+        89,
+        59,
+        73,
+        87
+      ],
+      "range": [
+        75.9,
+        78.25
+      ],
+      "observedAt": "2026-09-11T12:37:39.797Z",
+      "aggregate": 361.39217918205054,
+      "atar": 77.7,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 89,
+          "scaled": 79.16596976946056,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 59,
+          "scaled": 47.82161589780313,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 73,
+          "scaled": 73.27451155669445,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 87,
+          "scaled": 86.93191818556922,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.625
+    },
+    {
+      "id": 19,
+      "group": 2,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        88,
+        58,
+        72,
+        86,
+        56
+      ],
+      "range": [
+        71,
+        73.05
+      ],
+      "observedAt": "2026-09-11T12:37:44.834Z",
+      "aggregate": 332.44669419853636,
+      "atar": 72,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 88,
+          "scaled": 87.40769733781232,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 58,
+          "scaled": 46.62410049169445,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 72,
+          "scaled": 65.24369098309262,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 86,
+          "scaled": 85.21659369326413,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 56,
+          "scaled": 47.95461169267288,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -0.025
+    },
+    {
+      "id": 20,
+      "group": 2,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        57,
+        71,
+        85,
+        55,
+        69
+      ],
+      "range": [
+        65.2,
+        67.7
+      ],
+      "observedAt": "2026-09-11T12:37:50.180Z",
+      "aggregate": 304.41487583335464,
+      "atar": 66.45,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 57,
+          "scaled": 45.90090634759184,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 71,
+          "scaled": 61.803120089368676,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 85,
+          "scaled": 79.36012384664026,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 55,
+          "scaled": 49.494314840103755,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 69,
+          "scaled": 67.85641070965008,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0
+    },
+    {
+      "id": 21,
+      "group": 3,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        30,
+        34.3
+      ],
+      "observedAt": "2026-09-11T12:38:06.389Z",
+      "aggregate": 180.0541205673142,
+      "atar": 30.45,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 55,
+          "scaled": 67.82188155057526,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 55,
+          "scaled": 21.673363562443882,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 55,
+          "scaled": 23.528441668884636,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 55,
+          "scaled": 24.474048996167273,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -1.7
+    },
+    {
+      "id": 22,
+      "group": 3,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        51.6,
+        59.45
+      ],
+      "observedAt": "2026-09-11T12:38:11.372Z",
+      "aggregate": 271.19250912941453,
+      "atar": 57.7,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 65,
+          "scaled": 80.50702781997286,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 65,
+          "scaled": 41.02217399319655,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 65,
+          "scaled": 49.00360135833989,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 65,
+          "scaled": 41.3156226448194,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 2.175
+    },
+    {
+      "id": 23,
+      "group": 3,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        72.65,
+        77.8
+      ],
+      "observedAt": "2026-09-11T12:38:16.019Z",
+      "aggregate": 362.2867952663567,
+      "atar": 77.85,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 75,
+          "scaled": 89.00015554756469,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 75,
+          "scaled": 63.61554553275673,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 75,
+          "scaled": 75.006637533724,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 75,
+          "scaled": 60.46629287978811,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.05,
+      "midpointDifference": 2.625
+    },
+    {
+      "id": 24,
+      "group": 3,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        85.6,
+        89.1
+      ],
+      "observedAt": "2026-09-11T12:38:20.885Z",
+      "aggregate": 427.74563770573604,
+      "atar": 89.55,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 85,
+          "scaled": 94.06311517133302,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 85,
+          "scaled": 81.4649116478105,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 85,
+          "scaled": 90.3586965656632,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 85,
+          "scaled": 76.86415949541593,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.45,
+      "midpointDifference": 2.2
+    },
+    {
+      "id": 25,
+      "group": 3,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        93.25,
+        95.5
+      ],
+      "observedAt": "2026-09-11T12:38:26.243Z",
+      "aggregate": 464.8689570491906,
+      "atar": 96.35,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 95,
+          "scaled": 96.87486083762418,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 95,
+          "scaled": 91.70071937483979,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 95,
+          "scaled": 96.69555581695006,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 95,
+          "scaled": 87.82621404836222,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.85,
+      "midpointDifference": 1.975
+    },
+    {
+      "id": 26,
+      "group": 3,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        66,
+        83,
+        56,
+        73,
+        90
+      ],
+      "range": [
+        67.15,
+        72.55
+      ],
+      "observedAt": "2026-09-11T12:39:21.165Z",
+      "aggregate": 331.0540924983329,
+      "atar": 71.75,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 66,
+          "scaled": 60.96930208199115,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 83,
+          "scaled": 93.26689009871131,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 56,
+          "scaled": 23.2789167509072,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 73,
+          "scaled": 70.4996114730025,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 90,
+          "scaled": 83.0393720937208,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.9
+    },
+    {
+      "id": 27,
+      "group": 3,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        79,
+        96,
+        69,
+        86,
+        59
+      ],
+      "range": [
+        72.35,
+        76
+      ],
+      "observedAt": "2026-09-11T12:39:26.481Z",
+      "aggregate": 348.21249300898677,
+      "atar": 75.15,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 79,
+          "scaled": 79.04239052319197,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 96,
+          "scaled": 97.07157258979308,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 69,
+          "scaled": 50.141385933712435,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 86,
+          "scaled": 91.306134025886,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 59,
+          "scaled": 30.651009936403284,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.975
+    },
+    {
+      "id": 28,
+      "group": 3,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        92,
+        65,
+        82,
+        55,
+        72
+      ],
+      "range": [
+        65.7,
+        71
+      ],
+      "observedAt": "2026-09-11T12:39:31.693Z",
+      "aggregate": 325.8493803853224,
+      "atar": 70.7,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 92,
+          "scaled": 90.1011240430061,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 65,
+          "scaled": 80.50702781997286,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 82,
+          "scaled": 76.92294460323608,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 55,
+          "scaled": 23.528441668884636,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 72,
+          "scaled": 54.78984225022269,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 2.35
+    },
+    {
+      "id": 29,
+      "group": 3,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        61,
+        78,
+        95,
+        68,
+        85
+      ],
+      "range": [
+        73.7,
+        78.6
+      ],
+      "observedAt": "2026-09-11T12:39:36.844Z",
+      "aggregate": 369.5487005294871,
+      "atar": 79.15,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 61,
+          "scaled": 52.671040501432266,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 78,
+          "scaled": 90.82477126702466,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 95,
+          "scaled": 91.70071937483979,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 68,
+          "scaled": 57.488009890774435,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 85,
+          "scaled": 76.86415949541593,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.55,
+      "midpointDifference": 3
+    },
+    {
+      "id": 30,
+      "group": 3,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Chemistry",
+        "Psychology"
+      ],
+      "scores": [
+        74,
+        91,
+        64,
+        81,
+        98
+      ],
+      "range": [
+        77.9,
+        81.9
+      ],
+      "observedAt": "2026-09-11T12:39:42.008Z",
+      "aggregate": 383.3420756961918,
+      "atar": 81.55,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 74,
+          "scaled": 72.87898929437395,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 91,
+          "scaled": 95.9519861341658,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 64,
+          "scaled": 38.81192923831096,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 81,
+          "scaled": 85.59729805037809,
+          "counted": true
+        },
+        {
+          "subject": "Psychology",
+          "raw": 98,
+          "scaled": 90.101872978963,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.65
+    },
+    {
+      "id": 31,
+      "group": 4,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        39.95,
+        44
+      ],
+      "observedAt": "2026-09-11T12:39:55.867Z",
+      "aggregate": 207.73971811613958,
+      "atar": 38.75,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 55,
+          "scaled": 43.10700710347976,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 55,
+          "scaled": 38.018648034320364,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 55,
+          "scaled": 37.69213834065685,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 55,
+          "scaled": 46.365539848439475,
+          "counted": true
+        }
+      ],
+      "rangeDistance": -1.2,
+      "midpointDifference": -3.225
+    },
+    {
+      "id": 32,
+      "group": 4,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        60.85,
+        63.4
+      ],
+      "observedAt": "2026-09-11T12:40:00.962Z",
+      "aggregate": 284.2498673467613,
+      "atar": 61.6,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 65,
+          "scaled": 54.901144559733076,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 65,
+          "scaled": 53.40156982465296,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 65,
+          "scaled": 54.54306287863867,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 65,
+          "scaled": 62.06000677065081,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -0.525
+    },
+    {
+      "id": 33,
+      "group": 4,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        74.45,
+        77.15
+      ],
+      "observedAt": "2026-09-11T12:40:05.540Z",
+      "aggregate": 354.52366772466394,
+      "atar": 76.5,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 75,
+          "scaled": 66.17036710180446,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 75,
+          "scaled": 68.16292964144289,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 75,
+          "scaled": 70.41208804150716,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 75,
+          "scaled": 75.58011916738626,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.7
+    },
+    {
+      "id": 34,
+      "group": 4,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        83.9,
+        86.45
+      ],
+      "observedAt": "2026-09-11T12:40:10.743Z",
+      "aggregate": 408.7849357486046,
+      "atar": 86.15,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 85,
+          "scaled": 75.86333014668615,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 85,
+          "scaled": 79.99853039720249,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 85,
+          "scaled": 82.51447175726082,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 85,
+          "scaled": 85.41384862194171,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.975
+    },
+    {
+      "id": 35,
+      "group": 4,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        90.35,
+        92.6
+      ],
+      "observedAt": "2026-09-11T12:40:16.283Z",
+      "aggregate": 445.50401861548676,
+      "atar": 92.8,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 95,
+          "scaled": 83.47464506708852,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 95,
+          "scaled": 88.194899008274,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 95,
+          "scaled": 90.34237140588299,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 95,
+          "scaled": 91.72049616282678,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.2,
+      "midpointDifference": 1.325
+    },
+    {
+      "id": 36,
+      "group": 4,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        83,
+        59,
+        79,
+        55,
+        75
+      ],
+      "range": [
+        67.95,
+        70.65
+      ],
+      "observedAt": "2026-09-11T12:40:25.894Z",
+      "aggregate": 317.5872587615472,
+      "atar": 69.05,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 83,
+          "scaled": 83.18271992644476,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 59,
+          "scaled": 47.805759368774304,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 79,
+          "scaled": 73.32652195828501,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 55,
+          "scaled": 37.69213834065685,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 75,
+          "scaled": 75.58011916738626,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -0.25
+    },
+    {
+      "id": 37,
+      "group": 4,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        96,
+        72,
+        92,
+        68,
+        88
+      ],
+      "range": [
+        80.8,
+        83.1
+      ],
+      "observedAt": "2026-09-11T12:40:30.768Z",
+      "aggregate": 388.4960179424444,
+      "atar": 82.5,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 96,
+          "scaled": 92.26873082556702,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 72,
+          "scaled": 62.91618356715191,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 92,
+          "scaled": 86.09963632902084,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 68,
+          "scaled": 59.5721494109379,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 88,
+          "scaled": 87.63931780976671,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.55
+    },
+    {
+      "id": 38,
+      "group": 4,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        65,
+        85,
+        61,
+        81,
+        57
+      ],
+      "range": [
+        65.95,
+        68.55
+      ],
+      "observedAt": "2026-09-11T12:40:36.329Z",
+      "aggregate": 310.1222223235596,
+      "atar": 67.6,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 85,
+          "scaled": 75.86333014668615,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 61,
+          "scaled": 47.15966668399685,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 81,
+          "scaled": 78.20731327597987,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 57,
+          "scaled": 49.54782890381086,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.35
+    },
+    {
+      "id": 39,
+      "group": 4,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        78,
+        98,
+        74,
+        94,
+        70
+      ],
+      "range": [
+        80.55,
+        83.05
+      ],
+      "observedAt": "2026-09-11T12:40:41.604Z",
+      "aggregate": 388.99512742082686,
+      "atar": 82.55,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 78,
+          "scaled": 77.89724838152704,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 98,
+          "scaled": 85.34624469402118,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 74,
+          "scaled": 66.79154762753627,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 94,
+          "scaled": 89.72887215136367,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 70,
+          "scaled": 69.23121456637872,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.75
+    },
+    {
+      "id": 40,
+      "group": 4,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Ancient History",
+        "Modern History",
+        "Geography"
+      ],
+      "scores": [
+        91,
+        67,
+        87,
+        63,
+        83
+      ],
+      "range": [
+        76.5,
+        78.85
+      ],
+      "observedAt": "2026-09-11T12:40:46.922Z",
+      "aggregate": 363.52414010411275,
+      "atar": 78.05,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 91,
+          "scaled": 89.48027109473145,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 67,
+          "scaled": 57.23671852306122,
+          "counted": true
+        },
+        {
+          "subject": "Ancient History",
+          "raw": 87,
+          "scaled": 81.92356236950012,
+          "counted": true
+        },
+        {
+          "subject": "Modern History",
+          "raw": 63,
+          "scaled": 51.13125736282264,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 83,
+          "scaled": 83.75233075399734,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.375
+    },
+    {
+      "id": 41,
+      "group": 5,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        50,
+        57.35
+      ],
+      "observedAt": "2026-09-11T12:40:59.585Z",
+      "aggregate": 255.1156208527827,
+      "atar": 52.9,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 55,
+          "scaled": 67.82188155057526,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 55,
+          "scaled": 52.573481298768996,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 55,
+          "scaled": 48.53804844527487,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 55,
+          "scaled": 43.62582476892045,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -0.775
+    },
+    {
+      "id": 42,
+      "group": 5,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        69.45,
+        74.55
+      ],
+      "observedAt": "2026-09-11T12:41:04.510Z",
+      "aggregate": 337.41331962755055,
+      "atar": 73,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 65,
+          "scaled": 80.50702781997286,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 65,
+          "scaled": 67.10857969788064,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 65,
+          "scaled": 68.98368109714816,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 65,
+          "scaled": 61.469947699463106,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1
+    },
+    {
+      "id": 43,
+      "group": 5,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        81.75,
+        85.85
+      ],
+      "observedAt": "2026-09-11T12:41:09.374Z",
+      "aggregate": 402.8382226931492,
+      "atar": 85.1,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 75,
+          "scaled": 89.00015554756469,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 75,
+          "scaled": 78.9707261661573,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 75,
+          "scaled": 83.98380123341022,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 75,
+          "scaled": 76.6853759734938,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.3
+    },
+    {
+      "id": 44,
+      "group": 5,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        89.85,
+        92.95
+      ],
+      "observedAt": "2026-09-11T12:41:14.893Z",
+      "aggregate": 446.0813949426955,
+      "atar": 92.9,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 85,
+          "scaled": 94.06311517133302,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 85,
+          "scaled": 87.36041457645396,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 85,
+          "scaled": 92.51351637007873,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 85,
+          "scaled": 87.14959399931641,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.5
+    },
+    {
+      "id": 45,
+      "group": 5,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        95,
+        97.15
+      ],
+      "observedAt": "2026-09-11T12:41:20.531Z",
+      "aggregate": 471.36229247241045,
+      "atar": 97.4,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 95,
+          "scaled": 96.87486083762418,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 95,
+          "scaled": 92.71172666784896,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 95,
+          "scaled": 96.67686246007803,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 95,
+          "scaled": 93.32723553544486,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.25,
+      "midpointDifference": 1.325
+    },
+    {
+      "id": 46,
+      "group": 5,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        56,
+        79,
+        58,
+        81,
+        60
+      ],
+      "range": [
+        70,
+        74.4
+      ],
+      "observedAt": "2026-09-11T12:41:29.979Z",
+      "aggregate": 335.0921092858031,
+      "atar": 72.55,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 56,
+          "scaled": 44.2221013457586,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 79,
+          "scaled": 91.36972125448561,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 58,
+          "scaled": 57.102927691772,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 81,
+          "scaled": 89.76554587964003,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 60,
+          "scaled": 52.63181311414683,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.35
+    },
+    {
+      "id": 47,
+      "group": 5,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        69,
+        92,
+        71,
+        94,
+        73
+      ],
+      "range": [
+        83.2,
+        86.8
+      ],
+      "observedAt": "2026-09-11T12:41:34.882Z",
+      "aggregate": 406.91649812106937,
+      "atar": 85.8,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 69,
+          "scaled": 65.68882554111612,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 92,
+          "scaled": 96.20472791215954,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 71,
+          "scaled": 74.63308973172138,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 94,
+          "scaled": 96.39078258010207,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 73,
+          "scaled": 73.99907235597024,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.8
+    },
+    {
+      "id": 48,
+      "group": 5,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        82,
+        61,
+        84,
+        63,
+        86
+      ],
+      "range": [
+        80.45,
+        84.65
+      ],
+      "observedAt": "2026-09-11T12:41:39.836Z",
+      "aggregate": 397.95893824088876,
+      "atar": 84.15,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 82,
+          "scaled": 82.21305521585177,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 61,
+          "scaled": 75.93707609413636,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 84,
+          "scaled": 86.6713201105362,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 63,
+          "scaled": 65.1989602850907,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 86,
+          "scaled": 87.93852653527364,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.6
+    },
+    {
+      "id": 49,
+      "group": 5,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        95,
+        74,
+        97,
+        76,
+        55
+      ],
+      "range": [
+        82.1,
+        86.05
+      ],
+      "observedAt": "2026-09-11T12:41:44.862Z",
+      "aggregate": 402.32015540707215,
+      "atar": 85,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 74,
+          "scaled": 88.32450595551529,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 97,
+          "scaled": 93.49433314371943,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 76,
+          "scaled": 85.10388456750259,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 55,
+          "scaled": 43.62582476892045,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.925
+    },
+    {
+      "id": 50,
+      "group": 5,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Accounting",
+        "Economics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        64,
+        87,
+        66,
+        89,
+        68
+      ],
+      "range": [
+        78.8,
+        82.65
+      ],
+      "observedAt": "2026-09-11T12:41:50.174Z",
+      "aggregate": 381.9434109501793,
+      "atar": 81.3,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 64,
+          "scaled": 57.69812184570207,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 87,
+          "scaled": 94.77029659160316,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 66,
+          "scaled": 68.44085791345965,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 89,
+          "scaled": 94.56749857560386,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 68,
+          "scaled": 66.46663602381058,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.575
+    },
+    {
+      "id": 51,
+      "group": 6,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        39.6,
+        42.85
+      ],
+      "observedAt": "2026-09-11T12:42:02.807Z",
+      "aggregate": 206.9539331560887,
+      "atar": 38.5,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 55,
+          "scaled": 43.10700710347976,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 55,
+          "scaled": 42.3654687685213,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 55,
+          "scaled": 37.0785033814309,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 55,
+          "scaled": 41.846569113413615,
+          "counted": true
+        }
+      ],
+      "rangeDistance": -1.1,
+      "midpointDifference": -2.725
+    },
+    {
+      "id": 52,
+      "group": 6,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        58.5,
+        60.55
+      ],
+      "observedAt": "2026-09-11T12:42:07.694Z",
+      "aggregate": 274.1655776529613,
+      "atar": 58.6,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 65,
+          "scaled": 54.901144559733076,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 65,
+          "scaled": 56.06276758002351,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 65,
+          "scaled": 49.93923429393686,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 65,
+          "scaled": 53.918347906182056,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -0.925
+    },
+    {
+      "id": 53,
+      "group": 6,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        71.45,
+        73.65
+      ],
+      "observedAt": "2026-09-11T12:42:12.197Z",
+      "aggregate": 337.6193950560842,
+      "atar": 73.05,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 75,
+          "scaled": 66.17036710180446,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 75,
+          "scaled": 68.89522115260642,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 75,
+          "scaled": 62.80791144052741,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 75,
+          "scaled": 65.54773158862277,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.5
+    },
+    {
+      "id": 54,
+      "group": 6,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        80.8,
+        82.95
+      ],
+      "observedAt": "2026-09-11T12:42:17.179Z",
+      "aggregate": 389.87567732985985,
+      "atar": 82.75,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 85,
+          "scaled": 75.86333014668615,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 85,
+          "scaled": 79.36012384664026,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 85,
+          "scaled": 74.0850434432546,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 85,
+          "scaled": 75.57242506776538,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.875
+    },
+    {
+      "id": 55,
+      "group": 6,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        87.55,
+        89.55
+      ],
+      "observedAt": "2026-09-11T12:42:22.657Z",
+      "aggregate": 428.5105930734391,
+      "atar": 89.7,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 95,
+          "scaled": 83.47464506708852,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 95,
+          "scaled": 86.97068491851121,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 95,
+          "scaled": 82.87493712159358,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 95,
+          "scaled": 83.4187189948314,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.15,
+      "midpointDifference": 1.15
+    },
+    {
+      "id": 56,
+      "group": 6,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        73,
+        55,
+        81,
+        63,
+        89
+      ],
+      "range": [
+        67.6,
+        69.85
+      ],
+      "observedAt": "2026-09-11T12:42:32.217Z",
+      "aggregate": 316.4300266808985,
+      "atar": 68.85,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 73,
+          "scaled": 71.51822411772024,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 55,
+          "scaled": 43.10700710347976,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 81,
+          "scaled": 75.51273283255318,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 63,
+          "scaled": 47.30974236385375,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 89,
+          "scaled": 78.98232026329158,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.125
+    },
+    {
+      "id": 57,
+      "group": 6,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        86,
+        68,
+        94,
+        76,
+        58
+      ],
+      "range": [
+        72.3,
+        74.15
+      ],
+      "observedAt": "2026-09-11T12:42:37.212Z",
+      "aggregate": 340.02563929994466,
+      "atar": 73.55,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 86,
+          "scaled": 85.83877175901883,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 68,
+          "scaled": 58.3932017486423,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 94,
+          "scaled": 86.332745476276,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 76,
+          "scaled": 64.02907275345416,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 58,
+          "scaled": 45.431847562553386,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.325
+    },
+    {
+      "id": 58,
+      "group": 6,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        55,
+        81,
+        63,
+        89,
+        71
+      ],
+      "range": [
+        65.4,
+        67.7
+      ],
+      "observedAt": "2026-09-11T12:42:42.254Z",
+      "aggregate": 307.0610131935673,
+      "atar": 66.95,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 81,
+          "scaled": 72.22130337624635,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 63,
+          "scaled": 53.33028996841788,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 89,
+          "scaled": 77.91902426969394,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 71,
+          "scaled": 61.034010789965976,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.4
+    },
+    {
+      "id": 59,
+      "group": 6,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        68,
+        94,
+        76,
+        58,
+        84
+      ],
+      "range": [
+        70.35,
+        72.7
+      ],
+      "observedAt": "2026-09-11T12:42:47.414Z",
+      "aggregate": 332.5144378580571,
+      "atar": 72.05,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 68,
+          "scaled": 64.14462812094413,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 94,
+          "scaled": 82.80961644194339,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 76,
+          "scaled": 70.06464905571742,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 58,
+          "scaled": 40.83177203110115,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 84,
+          "scaled": 74.66377220835098,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.525
+    },
+    {
+      "id": 60,
+      "group": 6,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Business",
+        "Physical Education",
+        "Health"
+      ],
+      "scores": [
+        81,
+        63,
+        89,
+        71,
+        97
+      ],
+      "range": [
+        75.75,
+        77.6
+      ],
+      "observedAt": "2026-09-11T12:42:52.785Z",
+      "aggregate": 358.9777185496225,
+      "atar": 77.25,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 81,
+          "scaled": 81.20007195328407,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 63,
+          "scaled": 52.54382653963388,
+          "counted": true
+        },
+        {
+          "subject": "Business",
+          "raw": 89,
+          "scaled": 82.74129802672707,
+          "counted": true
+        },
+        {
+          "subject": "Physical Education",
+          "raw": 71,
+          "scaled": 57.771967741130794,
+          "counted": true
+        },
+        {
+          "subject": "Health",
+          "raw": 97,
+          "scaled": 84.72055428884676,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.575
+    },
+    {
+      "id": 61,
+      "group": 7,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        30,
+        39.3
+      ],
+      "observedAt": "2026-09-11T12:43:04.606Z",
+      "aggregate": 195.3029084615891,
+      "atar": 35,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 55,
+          "scaled": 67.82188155057526,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 55,
+          "scaled": 23.528441668884636,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 55,
+          "scaled": 17.770375683965625,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 55,
+          "scaled": 43.62582476892045,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.35
+    },
+    {
+      "id": 62,
+      "group": 7,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        56.45,
+        64.45
+      ],
+      "observedAt": "2026-09-11T12:43:09.592Z",
+      "aggregate": 291.99450063054826,
+      "atar": 63.9,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 65,
+          "scaled": 80.50702781997286,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 65,
+          "scaled": 49.00360135833989,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 65,
+          "scaled": 41.669840439686595,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 65,
+          "scaled": 61.469947699463106,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 3.45
+    },
+    {
+      "id": 63,
+      "group": 7,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        76.6,
+        82.15
+      ],
+      "observedAt": "2026-09-11T12:43:14.138Z",
+      "aggregate": 385.14092498173784,
+      "atar": 81.9,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 75,
+          "scaled": 89.00015554756469,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 75,
+          "scaled": 75.006637533724,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 75,
+          "scaled": 70.25059215443216,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 75,
+          "scaled": 76.6853759734938,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 2.525
+    },
+    {
+      "id": 64,
+      "group": 7,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        88.85,
+        92.5
+      ],
+      "observedAt": "2026-09-11T12:43:19.007Z",
+      "aggregate": 445.20861332259767,
+      "atar": 92.75,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 85,
+          "scaled": 94.06311517133302,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 85,
+          "scaled": 90.3586965656632,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 85,
+          "scaled": 88.64245276077169,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 85,
+          "scaled": 87.14959399931641,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.25,
+      "midpointDifference": 2.075
+    },
+    {
+      "id": 65,
+      "group": 7,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        95.5,
+        97.65
+      ],
+      "observedAt": "2026-09-11T12:43:24.312Z",
+      "aggregate": 474.9357090880463,
+      "atar": 97.95,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 95,
+          "scaled": 96.87486083762418,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 95,
+          "scaled": 96.69555581695006,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 95,
+          "scaled": 96.26644992661276,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 95,
+          "scaled": 93.32723553544486,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.3,
+      "midpointDifference": 1.375
+    },
+    {
+      "id": 66,
+      "group": 7,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        90,
+        75,
+        60,
+        89,
+        74
+      ],
+      "range": [
+        76.5,
+        81.55
+      ],
+      "observedAt": "2026-09-11T12:43:35.718Z",
+      "aggregate": 381.0556460384213,
+      "atar": 81.15,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 90,
+          "scaled": 88.82525438258791,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 75,
+          "scaled": 89.00015554756469,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 60,
+          "scaled": 35.222260105422244,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 89,
+          "scaled": 92.64111842015254,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 74,
+          "scaled": 75.36685758269391,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 2.125
+    },
+    {
+      "id": 67,
+      "group": 7,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        59,
+        88,
+        73,
+        58,
+        87
+      ],
+      "range": [
+        66.25,
+        71.75
+      ],
+      "observedAt": "2026-09-11T12:43:41.081Z",
+      "aggregate": 327.18702499233177,
+      "atar": 70.95,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 59,
+          "scaled": 49.28271586032993,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 88,
+          "scaled": 95.0932561276166,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 73,
+          "scaled": 70.4996114730025,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 58,
+          "scaled": 23.626108117881053,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 87,
+          "scaled": 88.6853334135017,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.95
+    },
+    {
+      "id": 68,
+      "group": 7,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        72,
+        57,
+        86,
+        71,
+        56
+      ],
+      "range": [
+        68.1,
+        74
+      ],
+      "observedAt": "2026-09-11T12:43:46.155Z",
+      "aggregate": 336.9332003194507,
+      "atar": 72.9,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 72,
+          "scaled": 70.11714565857153,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 57,
+          "scaled": 70.6852974703776,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 86,
+          "scaled": 91.306134025886,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 71,
+          "scaled": 59.41208660559326,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 56,
+          "scaled": 45.41253655902225,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.85
+    },
+    {
+      "id": 69,
+      "group": 7,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        85,
+        70,
+        55,
+        84,
+        69
+      ],
+      "range": [
+        70.8,
+        76.1
+      ],
+      "observedAt": "2026-09-11T12:43:51.112Z",
+      "aggregate": 349.2177938586361,
+      "atar": 75.35,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 70,
+          "scaled": 85.25272970374517,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 55,
+          "scaled": 23.528441668884636,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 84,
+          "scaled": 87.38231150891754,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 69,
+          "scaled": 68.0595561515754,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.9
+    },
+    {
+      "id": 70,
+      "group": 7,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Chemistry",
+        "Physics",
+        "Digital Solutions"
+      ],
+      "scores": [
+        98,
+        83,
+        68,
+        97,
+        82
+      ],
+      "range": [
+        84.3,
+        89.1
+      ],
+      "observedAt": "2026-09-11T12:43:56.055Z",
+      "aggregate": 425.488527052385,
+      "atar": 89.15,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 98,
+          "scaled": 93.18111511736802,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 83,
+          "scaled": 93.26689009871131,
+          "counted": true
+        },
+        {
+          "subject": "Chemistry",
+          "raw": 68,
+          "scaled": 57.488009890774435,
+          "counted": true
+        },
+        {
+          "subject": "Physics",
+          "raw": 97,
+          "scaled": 97.03630802062563,
+          "counted": true
+        },
+        {
+          "subject": "Digital Solutions",
+          "raw": 82,
+          "scaled": 84.51620392490558,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.05,
+      "midpointDifference": 2.45
+    },
+    {
+      "id": 71,
+      "group": 8,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        37.15,
+        41.75
+      ],
+      "observedAt": "2026-09-11T12:44:08.633Z",
+      "aggregate": 198.08891192360997,
+      "atar": 35.85,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 55,
+          "scaled": 43.10700710347976,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 55,
+          "scaled": 41.23830667022592,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 55,
+          "scaled": 27.16689584299967,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 55,
+          "scaled": 44.02031751766147,
+          "counted": true
+        }
+      ],
+      "rangeDistance": -1.3,
+      "midpointDifference": -3.6
+    },
+    {
+      "id": 72,
+      "group": 8,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        56.1,
+        59.35
+      ],
+      "observedAt": "2026-09-11T12:44:13.672Z",
+      "aggregate": 263.5622824590749,
+      "atar": 55.4,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 65,
+          "scaled": 54.901144559733076,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 65,
+          "scaled": 52.824563906418625,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 65,
+          "scaled": 40.98562542391671,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 65,
+          "scaled": 55.50686525592068,
+          "counted": true
+        }
+      ],
+      "rangeDistance": -0.7,
+      "midpointDifference": -2.325
+    },
+    {
+      "id": 73,
+      "group": 8,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        69.5,
+        72.5
+      ],
+      "observedAt": "2026-09-11T12:44:18.460Z",
+      "aggregate": 327.3071314059084,
+      "atar": 71,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 75,
+          "scaled": 66.17036710180446,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 75,
+          "scaled": 64.11494413072371,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 75,
+          "scaled": 56.392583013825494,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 75,
+          "scaled": 66.43107338703157,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0
+    },
+    {
+      "id": 74,
+      "group": 8,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        79.2,
+        82
+      ],
+      "observedAt": "2026-09-11T12:44:23.518Z",
+      "aggregate": 381.38683640690545,
+      "atar": 81.25,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 85,
+          "scaled": 75.86333014668615,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 85,
+          "scaled": 74.03243049962408,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 85,
+          "scaled": 70.65919315301448,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 85,
+          "scaled": 75.83712778206731,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.65
+    },
+    {
+      "id": 75,
+      "group": 8,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        86.3,
+        88.8
+      ],
+      "observedAt": "2026-09-11T12:44:29.847Z",
+      "aggregate": 422.26432073708605,
+      "atar": 88.55,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 95,
+          "scaled": 83.47464506708852,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 95,
+          "scaled": 81.98046368326133,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 95,
+          "scaled": 81.77041464855797,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 95,
+          "scaled": 83.26719036676381,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1
+    },
+    {
+      "id": 76,
+      "group": 8,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        63,
+        95,
+        83,
+        71,
+        59
+      ],
+      "range": [
+        65.95,
+        69.1
+      ],
+      "observedAt": "2026-09-11T12:44:39.770Z",
+      "aggregate": 310.52333590181365,
+      "atar": 67.65,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 63,
+          "scaled": 56.03487009311402,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 95,
+          "scaled": 83.47464506708852,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 83,
+          "scaled": 72.19571372190352,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 71,
+          "scaled": 50.21082041877977,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 59,
+          "scaled": 48.60728660092785,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.125
+    },
+    {
+      "id": 77,
+      "group": 8,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        76,
+        64,
+        96,
+        84,
+        72
+      ],
+      "range": [
+        72.85,
+        75.6
+      ],
+      "observedAt": "2026-09-11T12:44:44.793Z",
+      "aggregate": 344.4916013060876,
+      "atar": 74.4,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 76,
+          "scaled": 75.47473219706373,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 64,
+          "scaled": 53.724560492896934,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 96,
+          "scaled": 82.66067305420603,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 84,
+          "scaled": 69.35362466356709,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 72,
+          "scaled": 63.2780108983538,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.175
+    },
+    {
+      "id": 78,
+      "group": 8,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        89,
+        77,
+        65,
+        97,
+        85
+      ],
+      "range": [
+        77.45,
+        80
+      ],
+      "observedAt": "2026-09-11T12:44:49.865Z",
+      "aggregate": 368.60906946101045,
+      "atar": 78.95,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 89,
+          "scaled": 88.13480803828372,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 77,
+          "scaled": 68.26004679626242,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 65,
+          "scaled": 52.824563906418625,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 97,
+          "scaled": 83.55252293797835,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 85,
+          "scaled": 75.83712778206731,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.225
+    },
+    {
+      "id": 79,
+      "group": 8,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        58,
+        90,
+        78,
+        66,
+        98
+      ],
+      "range": [
+        68.4,
+        71.2
+      ],
+      "observedAt": "2026-09-11T12:44:55.541Z",
+      "aggregate": 322.40169700748277,
+      "atar": 70,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 58,
+          "scaled": 47.589054562342355,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 90,
+          "scaled": 79.93765264640324,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 78,
+          "scaled": 67.27259941154085,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 66,
+          "scaled": 42.49718992528565,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 98,
+          "scaled": 85.10520046191061,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.2
+    },
+    {
+      "id": 80,
+      "group": 8,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Visual Art",
+        "Drama",
+        "Design"
+      ],
+      "scores": [
+        71,
+        59,
+        91,
+        79,
+        67
+      ],
+      "range": [
+        67.35,
+        70.25
+      ],
+      "observedAt": "2026-09-11T12:45:00.945Z",
+      "aggregate": 315.69035221516407,
+      "atar": 68.7,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 71,
+          "scaled": 68.67729874070858,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 59,
+          "scaled": 47.805759368774304,
+          "counted": true
+        },
+        {
+          "subject": "Visual Art",
+          "raw": 91,
+          "scaled": 79.05205083137453,
+          "counted": true
+        },
+        {
+          "subject": "Drama",
+          "raw": 79,
+          "scaled": 62.38225125250384,
+          "counted": true
+        },
+        {
+          "subject": "Design",
+          "raw": 67,
+          "scaled": 57.77299202180284,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -0.1
+    },
+    {
+      "id": 81,
+      "group": 9,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        42.85,
+        50.25
+      ],
+      "observedAt": "2026-09-11T12:45:13.585Z",
+      "aggregate": 227.91148459080551,
+      "atar": 44.75,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 55,
+          "scaled": 67.82188155057526,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 55,
+          "scaled": 21.673363562443882,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 55,
+          "scaled": 49.494314840103755,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 55,
+          "scaled": 46.365539848439475,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -1.8
+    },
+    {
+      "id": 82,
+      "group": 9,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        63.25,
+        68.2
+      ],
+      "observedAt": "2026-09-11T12:45:18.946Z",
+      "aggregate": 306.37777440407007,
+      "atar": 66.85,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 65,
+          "scaled": 80.50702781997286,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 65,
+          "scaled": 41.02217399319655,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 65,
+          "scaled": 63.44448250716403,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 65,
+          "scaled": 62.06000677065081,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.125
+    },
+    {
+      "id": 83,
+      "group": 9,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        77.45,
+        81.25
+      ],
+      "observedAt": "2026-09-11T12:45:23.682Z",
+      "aggregate": 377.84685245528885,
+      "atar": 80.6,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 75,
+          "scaled": 89.00015554756469,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 75,
+          "scaled": 63.61554553275673,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 75,
+          "scaled": 75.45286843505795,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 75,
+          "scaled": 75.58011916738626,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.25
+    },
+    {
+      "id": 84,
+      "group": 9,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        86.9,
+        90.05
+      ],
+      "observedAt": "2026-09-11T12:45:28.948Z",
+      "aggregate": 430.41848488057997,
+      "atar": 90.05,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 85,
+          "scaled": 94.06311517133302,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 85,
+          "scaled": 81.4649116478105,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 85,
+          "scaled": 84.48185461398137,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 85,
+          "scaled": 85.41384862194171,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.575
+    },
+    {
+      "id": 85,
+      "group": 9,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        93.15,
+        95.45
+      ],
+      "observedAt": "2026-09-11T12:45:34.377Z",
+      "aggregate": 462.6715584337394,
+      "atar": 96,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 95,
+          "scaled": 96.87486083762418,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 95,
+          "scaled": 91.70071937483979,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 95,
+          "scaled": 90.60387508703421,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 95,
+          "scaled": 91.72049616282678,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.55,
+      "midpointDifference": 1.7
+    },
+    {
+      "id": 86,
+      "group": 9,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        80,
+        71,
+        62,
+        97,
+        88
+      ],
+      "range": [
+        78.1,
+        81.95
+      ],
+      "observedAt": "2026-09-11T12:45:45.081Z",
+      "aggregate": 379.9283076829474,
+      "atar": 80.95,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 80,
+          "scaled": 80.14328845699708,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 71,
+          "scaled": 86.07829415483106,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 62,
+          "scaled": 34.53424037919609,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 97,
+          "scaled": 91.53316688215642,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 88,
+          "scaled": 87.63931780976671,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.925
+    },
+    {
+      "id": 87,
+      "group": 9,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        93,
+        84,
+        75,
+        66,
+        57
+      ],
+      "range": [
+        75.25,
+        78.65
+      ],
+      "observedAt": "2026-09-11T12:45:50.048Z",
+      "aggregate": 362.2888052673987,
+      "atar": 77.85,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 93,
+          "scaled": 90.6890994534896,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 84,
+          "scaled": 93.67670216885281,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 75,
+          "scaled": 63.61554553275673,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 66,
+          "scaled": 64.7596292084887,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 57,
+          "scaled": 49.54782890381086,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.9
+    },
+    {
+      "id": 88,
+      "group": 9,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        62,
+        97,
+        88,
+        79,
+        70
+      ],
+      "range": [
+        79.4,
+        82.3
+      ],
+      "observedAt": "2026-09-11T12:45:55.328Z",
+      "aggregate": 385.56772999376165,
+      "atar": 81.95,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 62,
+          "scaled": 54.357933531804385,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 97,
+          "scaled": 97.25620658436219,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 88,
+          "scaled": 85.28402655457428,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 79,
+          "scaled": 79.43834875664207,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 70,
+          "scaled": 69.23121456637872,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.1
+    },
+    {
+      "id": 89,
+      "group": 9,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        75,
+        66,
+        57,
+        92,
+        83
+      ],
+      "range": [
+        73.2,
+        77.45
+      ],
+      "observedAt": "2026-09-11T12:46:00.560Z",
+      "aggregate": 353.49552585785244,
+      "atar": 76.3,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 66,
+          "scaled": 81.54093824441958,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 57,
+          "scaled": 24.965499376896563,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 92,
+          "scaled": 89.0385937100158,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 83,
+          "scaled": 83.75233075399734,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.975
+    },
+    {
+      "id": 90,
+      "group": 9,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "Mathematical Methods",
+        "Biology",
+        "Legal Studies",
+        "Geography"
+      ],
+      "scores": [
+        88,
+        79,
+        70,
+        61,
+        96
+      ],
+      "range": [
+        78.7,
+        82.05
+      ],
+      "observedAt": "2026-09-11T12:46:05.695Z",
+      "aggregate": 381.4115131657175,
+      "atar": 81.25,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 88,
+          "scaled": 87.40769733781232,
+          "counted": true
+        },
+        {
+          "subject": "Mathematical Methods",
+          "raw": 79,
+          "scaled": 91.36972125448561,
+          "counted": true
+        },
+        {
+          "subject": "Biology",
+          "raw": 70,
+          "scaled": 52.44384679639562,
+          "counted": true
+        },
+        {
+          "subject": "Legal Studies",
+          "raw": 61,
+          "scaled": 57.99838071768527,
+          "counted": true
+        },
+        {
+          "subject": "Geography",
+          "raw": 96,
+          "scaled": 92.19186705933865,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.875
+    },
+    {
+      "id": 91,
+      "group": 10,
+      "scenario": 1,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "range": [
+        49.05,
+        54
+      ],
+      "observedAt": "2026-09-11T12:46:19.694Z",
+      "aggregate": 245.74847391904157,
+      "atar": 50.1,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 55,
+          "scaled": 42.55638478924314,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 55,
+          "scaled": 43.10700710347976,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 55,
+          "scaled": 52.573481298768996,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 55,
+          "scaled": 48.53804844527487,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 55,
+          "scaled": 58.97355228227479,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": -1.425
+    },
+    {
+      "id": 92,
+      "group": 10,
+      "scenario": 2,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "range": [
+        68.1,
+        71.65
+      ],
+      "observedAt": "2026-09-11T12:46:24.631Z",
+      "aggregate": 325.8538385694121,
+      "atar": 70.7,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 65,
+          "scaled": 59.344083313085804,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 65,
+          "scaled": 54.901144559733076,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 65,
+          "scaled": 67.10857969788064,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 65,
+          "scaled": 68.98368109714816,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 65,
+          "scaled": 75.5163499015644,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.825
+    },
+    {
+      "id": 93,
+      "group": 10,
+      "scenario": 3,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "range": [
+        80.3,
+        83.2
+      ],
+      "observedAt": "2026-09-11T12:46:29.202Z",
+      "aggregate": 390.19385836618585,
+      "atar": 82.8,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 75,
+          "scaled": 74.19816377252317,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 75,
+          "scaled": 66.17036710180446,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 75,
+          "scaled": 78.9707261661573,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 75,
+          "scaled": 83.98380123341022,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 75,
+          "scaled": 86.87080009229068,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.05
+    },
+    {
+      "id": 94,
+      "group": 10,
+      "scenario": 4,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "range": [
+        88.3,
+        90.7
+      ],
+      "observedAt": "2026-09-11T12:46:34.283Z",
+      "aggregate": 434.1474339871422,
+      "atar": 90.7,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 85,
+          "scaled": 84.99475482551341,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 85,
+          "scaled": 75.86333014668615,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 85,
+          "scaled": 87.36041457645396,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 85,
+          "scaled": 92.51351637007873,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 85,
+          "scaled": 93.41541806841002,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.2
+    },
+    {
+      "id": 95,
+      "group": 10,
+      "scenario": 5,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        95,
+        95,
+        95,
+        95,
+        95
+      ],
+      "range": [
+        93.4,
+        95.35
+      ],
+      "observedAt": "2026-09-11T12:46:39.901Z",
+      "aggregate": 461.44877238376716,
+      "atar": 95.8,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 95,
+          "scaled": 91.77160697141443,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 95,
+          "scaled": 83.47464506708852,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 95,
+          "scaled": 92.71172666784896,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 95,
+          "scaled": 96.67686246007803,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 95,
+          "scaled": 96.8139312173372,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0.45,
+      "midpointDifference": 1.425
+    },
+    {
+      "id": 96,
+      "group": 10,
+      "scenario": 6,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        97,
+        91,
+        85,
+        79,
+        73
+      ],
+      "range": [
+        87.9,
+        90.65
+      ],
+      "observedAt": "2026-09-11T12:48:54.981Z",
+      "aggregate": 433.8960196290463,
+      "atar": 90.65,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 97,
+          "scaled": 92.73814618379312,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 91,
+          "scaled": 80.68775263115543,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 85,
+          "scaled": 87.36041457645396,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 79,
+          "scaled": 88.07960860589603,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 73,
+          "scaled": 85.03009763174772,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.375
+    },
+    {
+      "id": 97,
+      "group": 10,
+      "scenario": 7,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        66,
+        60,
+        98,
+        92,
+        86
+      ],
+      "range": [
+        81.95,
+        83.65
+      ],
+      "observedAt": "2026-09-11T12:49:00.591Z",
+      "aggregate": 393.4296299362039,
+      "atar": 83.35,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 66,
+          "scaled": 60.96930208199115,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 60,
+          "scaled": 48.9898892013304,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 98,
+          "scaled": 93.8556548733876,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 92,
+          "scaled": 95.7457131490998,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 86,
+          "scaled": 93.86907063039496,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.55
+    },
+    {
+      "id": 98,
+      "group": 10,
+      "scenario": 8,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        79,
+        73,
+        67,
+        61,
+        55
+      ],
+      "range": [
+        69.15,
+        72.95
+      ],
+      "observedAt": "2026-09-11T12:49:05.732Z",
+      "aggregate": 332.9871060506615,
+      "atar": 72.15,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 79,
+          "scaled": 79.04239052319197,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 73,
+          "scaled": 64.01571420935021,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 67,
+          "scaled": 69.74350031481814,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 61,
+          "scaled": 61.2119487210264,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 55,
+          "scaled": 58.97355228227479,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.1
+    },
+    {
+      "id": 99,
+      "group": 10,
+      "scenario": 9,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        92,
+        86,
+        80,
+        74,
+        68
+      ],
+      "range": [
+        83.95,
+        87.05
+      ],
+      "observedAt": "2026-09-11T12:49:10.545Z",
+      "aggregate": 412.71123035389854,
+      "atar": 86.85,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 92,
+          "scaled": 90.1011240430061,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 86,
+          "scaled": 76.72125989369914,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 80,
+          "scaled": 83.59212169522488,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 74,
+          "scaled": 82.79646249742164,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 68,
+          "scaled": 79.50026222454676,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 1.35
+    },
+    {
+      "id": 100,
+      "group": 10,
+      "scenario": 10,
+      "subjects": [
+        "English",
+        "General Mathematics",
+        "Accounting",
+        "Economics",
+        "Engineering"
+      ],
+      "scores": [
+        61,
+        55,
+        93,
+        87,
+        81
+      ],
+      "range": [
+        78.05,
+        80.15
+      ],
+      "observedAt": "2026-09-11T12:49:16.021Z",
+      "aggregate": 372.51048282401786,
+      "atar": 79.65,
+      "scaled": [
+        {
+          "subject": "English",
+          "raw": 61,
+          "scaled": 52.671040501432266,
+          "counted": true
+        },
+        {
+          "subject": "General Mathematics",
+          "raw": 55,
+          "scaled": 43.10700710347976,
+          "counted": true
+        },
+        {
+          "subject": "Accounting",
+          "raw": 93,
+          "scaled": 91.84317460961128,
+          "counted": true
+        },
+        {
+          "subject": "Economics",
+          "raw": 87,
+          "scaled": 93.61720302262349,
+          "counted": true
+        },
+        {
+          "subject": "Engineering",
+          "raw": 81,
+          "scaled": 91.27205758687106,
+          "counted": true
+        }
+      ],
+      "rangeDistance": 0,
+      "midpointDifference": 0.55
+    }
+  ]
+}

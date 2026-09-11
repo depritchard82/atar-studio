@@ -1,5 +1,15 @@
 # ATAR Studio
 
+## Experimental ATAR comparison ranges
+
+Individual predictions, spreadsheet results/exports and the prediction tool now include an experimental range for supported 2025 inputs. The point estimate and subject curves remain unchanged. Ranges are derived from 100 synthetic profiles compared with QTAC ATAR Navigator on 11 September 2026; Navigator's exact historical reference year is unknown. They are not confidence intervals or validated ranges for actual student outcomes.
+
+Three estimated aggregate bands (<300, 300–<440, 440+) use the most negative Navigator lower-bound residual and most positive upper-bound residual relative to the original prediction, rounded outward to 0.05. Offsets also contain zero so the point estimate remains inside. Conservative adjustments at band transitions prevent bounds decreasing as aggregate increases. Below-30 lower endpoints display `<30`; the upper cap is 99.95. Bands have 16, 73 and 11 trials respectively, with base offsets [-7.45,+5.90], [-7.40,+1.90], [-3.95,+0.05]. Transition adjustments can widen these base offsets.
+
+Leave-one-subject-set-out validation (10 folds, refitting on the other nine sets) contained the entire held-out Navigator range for 94/100 profiles. This is internal diagnostic validation, not 94% predictive accuracy; the final envelope contains all 100 training ranges by construction. The design and bands were selected after inspecting the benchmark. Independent actual TEA–ATAR data is still needed. Ranges apply only to five distinct tested subjects including English, raw totals 55–98, and estimated aggregates 180.0541–478.4224. Other inputs retain a point estimate with a range-unavailable explanation. New combinations of the tested subjects remain an extrapolation across combinations.
+
+`scripts/boundary-trials.json` contains only synthetic trials. Rebuild coefficients with `node scripts/build_boundaries.mjs`, then run `node scripts/validate_boundaries.mjs`. This verifies the unchanged predictions, all calibration envelopes, scope guards and monotonic bounds. No original student workbooks are included.
+
 Subject Rankings computes unweighted means of fitted scaled scores at integer raw scores: subscore 0–99, topscore 90–99, ascore 80–99, bscore 60–79 and cscore 40–59. Raw 100 is excluded. Every column is sortable and the current order exports to CSV with the selected year and full numeric precision. Fitted values are not clipped; bands containing values outside 0–100 are flagged. Rankings are curve summaries, not observed student averages or ATAR predictions. Run `node scripts/validate_rankings.mjs` to verify band calculations for all datasets.
 
 [Open the website](https://depritchard82.github.io/atar-studio/)
