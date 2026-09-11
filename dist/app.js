@@ -1,5 +1,5 @@
 import {predict,compare,batchPredict,logistic,rawScore} from './engine.mjs';
-import {initRankings} from './rankings.mjs';
+import {initRankings} from './rankings.mjs?v=nav2';
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let models={},batchResult=null,batchFilename='',busy=false;
 const model=()=>models[$('#year').value],notice=(message='')=>{$('#notice').textContent=message;};

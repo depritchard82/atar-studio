@@ -32,7 +32,7 @@ for(const bad of ['',null,NaN,Infinity,-1,101])assert.throws(()=>rawScore(bad));
 assert.equal(atarFromAggregate(400),84.55);assert.equal(atarFromAggregate(500),99.95);assert.equal(atarFromAggregate(0),0);
 const ctx={};vm.createContext(ctx);vm.runInContext(fs.readFileSync('dist/vendor/xlsx.full.min.js','utf8'),ctx);const X=ctx.XLSX;
 for(const bookType of ['xlsx','biff8']){const wb=X.utils.book_new(),data=[{Name:'Synthetic student',Subject:'Accounting',IA1:0,IA2:25,IA3:25,MEA:30}];X.utils.book_append_sheet(wb,X.utils.json_to_sheet(data),'Data');const buffer=X.write(wb,{type:'array',bookType});const read=X.read(buffer,{type:'array'});const rows=X.utils.sheet_to_json(read.Sheets.Data);assert.equal(rows[0].IA1,0);assert.equal(rows[0].Name,'Synthetic student');console.log(bookType,'read/write roundtrip passed');}
-const html=fs.readFileSync('dist/index.html','utf8');for(const m of html.matchAll(/(?:src|href)="([^"#]+)"/g))assert.ok(fs.existsSync('dist/'+m[1]),m[1]);
+const html=fs.readFileSync('dist/index.html','utf8');for(const m of html.matchAll(/(?:src|href)="([^"#]+)"/g))assert.ok(fs.existsSync('dist/'+m[1].split('?')[0]),m[1]);
 assert.ok(!/https?:\/\//.test(html),'No external page resources');
 const app=fs.readFileSync('dist/app.js','utf8');assert.equal((app.match(/fetch\(/g)||[]).length,1);assert.ok(app.includes("fetch('./models.json')"));assert.ok(!/localStorage|sendBeacon|XMLHttpRequest/.test(app));
 console.log('Local assets and no-upload application contract passed');
