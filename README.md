@@ -1,5 +1,7 @@
 # ATAR Studio
 
+Subject Rankings computes unweighted means of fitted scaled scores at integer raw scores: subscore 0–99, topscore 90–99, ascore 80–99, bscore 60–79 and cscore 40–59. Raw 100 is excluded. Every column is sortable and the current order exports to CSV with the selected year and full numeric precision. Fitted values are not clipped; bands containing values outside 0–100 are flagged. Rankings are curve summaries, not observed student averages or ATAR predictions. Run `node scripts/validate_rankings.mjs` to verify band calculations for all datasets.
+
 [Open the website](https://depritchard82.github.io/atar-studio/)
 
 Changes pushed to main are validated and published by the GitHub Pages workflow. Only the dist folder is served; student source workbooks are excluded.

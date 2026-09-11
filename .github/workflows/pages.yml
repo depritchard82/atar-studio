@@ -22,6 +22,7 @@ jobs:
         run: |
           node scripts/validate.mjs
           node scripts/validate_mock.mjs
+          node scripts/validate_rankings.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
