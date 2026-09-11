@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "method": "100 / (1 + A × exp(−k × mockPercentage)); fixed 0–100 asymptotes, k ≥ 0, least squares",
+  "validation": "Leave-one-out cross-validation, refitting for every omitted pair. Errors are percentage points, not prediction intervals. No independent future cohort validation.",
+  "sourceNotes": "Separate subjects; duplicate scaling-check sheets excluded. Only aggregate coefficients and metrics are published. These are school mock conversions, independent of the selected QTAC scaling year.",
+  "subjects": {
+    "Mathematical Methods": {
+      "subject": "Mathematical Methods",
+      "n": 37,
+      "externalMaximum": 50,
+      "mockRange": [
+        10.16949152542373,
+        89.40677966101694
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Methods",
+      "mapping": "V mock, W external; weighted marks out of 50; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": true,
+      "status": "Provisional",
+      "warnings": [],
+      "parameters": [
+        100,
+        1.382320091860198,
+        0.0408732295967289
+      ],
+      "cvMAE": 4.408931099059115,
+      "cvRMSE": 5.736483983315356,
+      "baselineRMSE": 14.592827597280474,
+      "r2": 0.8597207990374623
+    },
+    "Specialist Mathematics": {
+      "subject": "Specialist Mathematics",
+      "n": 22,
+      "externalMaximum": 50,
+      "mockRange": [
+        6.0,
+        80.0
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Spec",
+      "mapping": "N mock, O external; weighted marks out of 50; rows 1–250 inspected",
+      "cohort": "Not labelled (workbook cohort mostly 2022)",
+      "enabled": true,
+      "status": "Provisional",
+      "warnings": [
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        1.6034165679185457,
+        0.04320782338319666
+      ],
+      "cvMAE": 6.166330348834637,
+      "cvRMSE": 8.598391649924446,
+      "baselineRMSE": 16.16384364159222,
+      "r2": 0.7552538863450493
+    },
+    "Chemistry": {
+      "subject": "Chemistry",
+      "n": 32,
+      "externalMaximum": 50,
+      "mockRange": [
+        15.306122448979592,
+        92.85714285714286
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Chem",
+      "mapping": "V mock, W external; weighted marks out of 50; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": true,
+      "status": "Provisional",
+      "warnings": [
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        1.011207796318951,
+        0.03354515957882225
+      ],
+      "cvMAE": 3.1588709271769133,
+      "cvRMSE": 4.49373981394561,
+      "baselineRMSE": 10.722689336043198,
+      "r2": 0.8511226449202091
+    },
+    "Physics": {
+      "subject": "Physics",
+      "n": 22,
+      "externalMaximum": 50,
+      "mockRange": [
+        10.0,
+        91.25
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Physics",
+      "mapping": "R mock, S external; weighted marks out of 50; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": true,
+      "status": "Provisional",
+      "warnings": [
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        0.8482266000601892,
+        0.029194279687346617
+      ],
+      "cvMAE": 3.293744666100824,
+      "cvRMSE": 4.687966709278075,
+      "baselineRMSE": 9.800273030580469,
+      "r2": 0.7965275624873001
+    },
+    "Biology": {
+      "subject": "Biology",
+      "n": 25,
+      "externalMaximum": 50,
+      "mockRange": [
+        10.5,
+        87.0
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Biology",
+      "mapping": "R mock, S external; weighted marks out of 50; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": true,
+      "status": "Provisional",
+      "warnings": [
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        0.9220430033055746,
+        0.02620379673298212
+      ],
+      "cvMAE": 3.827291444189241,
+      "cvRMSE": 5.004532198593556,
+      "baselineRMSE": 9.478044805408619,
+      "r2": 0.7353731467973388
+    },
+    "Accounting": {
+      "subject": "Accounting",
+      "n": 2,
+      "externalMaximum": 25,
+      "mockRange": [
+        74.47368421052632,
+        83.55263157894737
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Accounting",
+      "mapping": "R mock, S external; weighted marks out of 25; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": false,
+      "status": "Awaiting data",
+      "warnings": [
+        "Only two paired results; no conversion fitted."
+      ]
+    },
+    "Design": {
+      "subject": "Design",
+      "n": 11,
+      "externalMaximum": 25,
+      "mockRange": [
+        55.55555555555556,
+        91.66666666666666
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Design",
+      "mapping": "T mock, U external; weighted marks out of 25; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": true,
+      "status": "Provisional",
+      "warnings": [
+        "Small sample: estimates may change substantially with new data.",
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        35.931318241837424,
+        0.05354597502088441
+      ],
+      "cvMAE": 10.122083516931744,
+      "cvRMSE": 13.88489085537189,
+      "baselineRMSE": 16.59879513699714,
+      "r2": 0.43636934693477003
+    },
+    "Drama": {
+      "subject": "Drama",
+      "n": 5,
+      "externalMaximum": 25,
+      "mockRange": [
+        53.333333333333336,
+        93.33333333333333
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Drama",
+      "mapping": "R mock, S external; weighted marks out of 25; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": true,
+      "status": "Experimental",
+      "warnings": [
+        "Small sample: estimates may change substantially with new data.",
+        "Held-out RMSE is worse than predicting the cohort mean; this curve has not demonstrated an improvement over that baseline.",
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        1.1406283681165879,
+        0.007865395116831634
+      ],
+      "cvMAE": 8.636921662483227,
+      "cvRMSE": 9.794699673484077,
+      "baselineRMSE": 8.602325267042625,
+      "r2": 0.18156208418049735
+    },
+    "Economics": {
+      "subject": "Economics",
+      "n": 5,
+      "externalMaximum": 25,
+      "mockRange": [
+        20.0,
+        76.66666666666667
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "Economics",
+      "mapping": "R mock, S external; weighted marks out of 25; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": true,
+      "status": "Provisional",
+      "warnings": [
+        "Small sample: estimates may change substantially with new data.",
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        1.2696533644477421,
+        0.029482598381835704
+      ],
+      "cvMAE": 7.5595662451634835,
+      "cvRMSE": 8.474140978180714,
+      "baselineRMSE": 15.165750888103101,
+      "r2": 0.8390662971456468
+    },
+    "English": {
+      "subject": "English",
+      "n": 41,
+      "externalMaximum": 25,
+      "mockRange": [
+        0.0,
+        94.54545454545455
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "English",
+      "mapping": "R mock, S external; weighted marks out of 25; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": true,
+      "status": "Experimental",
+      "warnings": [
+        "Held-out RMSE is worse than predicting the cohort mean; this curve has not demonstrated an improvement over that baseline.",
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        0.6092087784531434,
+        0.01329275133518706
+      ],
+      "cvMAE": 12.752404897773767,
+      "cvRMSE": 17.000566594143734,
+      "baselineRMSE": 15.084429057806593,
+      "r2": 0.10273317278953842
+    },
+    "English and Literature Extension": {
+      "subject": "English and Literature Extension",
+      "n": 9,
+      "externalMaximum": 25,
+      "mockRange": [
+        62.22222222222222,
+        97.77777777777777
+      ],
+      "source": "scaling comparisons - 2023.xlsx",
+      "sheet": "englishlitext",
+      "mapping": "R mock, S external; weighted marks out of 25; rows 2–250 inspected",
+      "cohort": "2022 (completion-year column; filename says 2023)",
+      "enabled": false,
+      "status": "Awaiting data",
+      "warnings": [
+        "Small sample: estimates may change substantially with new data.",
+        "Held-out RMSE is worse than predicting the cohort mean; this curve has not demonstrated an improvement over that baseline.",
+        "The fitted curve is effectively flat. More varied paired results are needed before enabling conversion.",
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+      ],
+      "parameters": [
+        100,
+        0.061320755519810734,
+        2.6734786062098133e-17
+      ],
+      "cvMAE": 4.226808396641862,
+      "cvRMSE": 5.254109964934881,
+      "baselineRMSE": 5.244044240850758,
+      "r2": -4.440892098500626e-16
+    },
+    "Engineering": {
+      "subject": "Engineering",
+      "n": 10,
+      "externalMaximum": 25,
+      "mockRange": [
+        24.7,
+        84.7
+      ],
+      "source": "Engineering scaling.ods",
+      "sheet": "Sheet1",
+      "mapping": "B2:C11, mock percentage → real external percentage",
+      "cohort": "Not supplied",
+      "enabled": true,
+      "status": "Provisional",
+      "warnings": [
+        "Small sample: estimates may change substantially with new data."
+      ],
+      "parameters": [
+        100,
+        2.418859345508707,
+        0.04837714261995779
+      ],
+      "cvMAE": 7.523128695712809,
+      "cvRMSE": 9.137810496531756,
+      "baselineRMSE": 16.5342891002118,
+      "r2": 0.7944315447063124
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "url": "https://qtac-files.s3.ap-southeast-2.amazonaws.com/ATAR_Report_2025.pdf",
+  "title": "QTAC ATAR Report 2025",
+  "published": "February 2026",
+  "tables": [
+    6,
+    7
+  ],
+  "pdf_sha256": "79338e19dd36bd0e423b3c7d004ce734a818a2dc12f2d40250541b1f12bf3a5b",
+  "subjects": {
+    "Aboriginal and Torres Strait Islander Studies": {
+      "code": "0023",
+      "category": "General / General Extension",
+      "report_page": 8
+    },
+    "Accounting": {
+      "code": "0060",
+      "category": "General / General Extension",
+      "report_page": 8
+    },
+    "Aerospace Systems": {
+      "code": "0055",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Agricultural Science": {
+      "code": "0051",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Ancient History": {
+      "code": "0020",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Biology": {
+      "code": "0042",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Business": {
+      "code": "0066",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Chemistry": {
+      "code": "0040",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Chinese": {
+      "code": "0011",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Dance": {
+      "code": "0085",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Design": {
+      "code": "0048",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Digital Solutions": {
+      "code": "0049",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Drama": {
+      "code": "0088",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Earth and Environmental Science": {
+      "code": "0043",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Economics": {
+      "code": "0027",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "Engineering": {
+      "code": "0074",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "English": {
+      "code": "0001",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "English and Literature Extension": {
+      "code": "0002",
+      "category": "General / General Extension",
+      "report_page": 9
+    },
+    "English as an Additional Language": {
+      "code": "0003",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Film Television and New Media": {
+      "code": "0093",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Food and Nutrition": {
+      "code": "0069",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "French": {
+      "code": "0005",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "French Extension": {
+      "code": "0015",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "General Mathematics": {
+      "code": "0052",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Geography": {
+      "code": "0024",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "German": {
+      "code": "0006",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "German Extension": {
+      "code": "0016",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Health": {
+      "code": "0067",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Italian": {
+      "code": "0008",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Japanese": {
+      "code": "0009",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Legal Studies": {
+      "code": "0029",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Literature": {
+      "code": "0026",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Marine Science": {
+      "code": "0047",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Mathematical Methods": {
+      "code": "0053",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Modern History": {
+      "code": "0021",
+      "category": "General / General Extension",
+      "report_page": 10
+    },
+    "Music": {
+      "code": "0091",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Music Extension (Composition)": {
+      "code": "0094c",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Music Extension (Performance)": {
+      "code": "0094p",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Philosophy and Reason": {
+      "code": "0033",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Physical Education": {
+      "code": "0068",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Physics": {
+      "code": "0041",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Psychology": {
+      "code": "0079",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Spanish": {
+      "code": "0018",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Specialist Mathematics": {
+      "code": "0054",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Study of Religion": {
+      "code": "0086",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Visual Art": {
+      "code": "0080",
+      "category": "General / General Extension",
+      "report_page": 11
+    },
+    "Chinese (Senior External Examination)": {
+      "code": "4011",
+      "category": "Senior External Examination",
+      "report_page": 11
+    },
+    "Korean": {
+      "code": "4013",
+      "category": "Senior External Examination",
+      "report_page": 12
+    },
+    "Vietnamese": {
+      "code": "4012",
+      "category": "Senior External Examination",
+      "report_page": 12
+    }
+  },
+  "withheld": [
+    {
+      "code": "0056",
+      "subject": "Chinese Extension",
+      "category": "General / General Extension"
+    },
+    {
+      "code": "0094m",
+      "subject": "Music Extension (Musicology)",
+      "category": "General / General Extension"
+    },
+    {
+      "code": "4100",
+      "subject": "Arabic",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4001",
+      "subject": "English",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4052",
+      "subject": "General Mathematics",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4007",
+      "subject": "Indonesian",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4017",
+      "subject": "Latin",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4014",
+      "subject": "ModernGreek",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4019",
+      "subject": "Polish",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4105",
+      "subject": "Punjabi",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4010",
+      "subject": "Russian",
+      "category": "Senior External Examination"
+    },
+    {
+      "code": "4106",
+      "subject": "Tamil",
+      "category": "Senior External Examination"
+    }
+  ]
+}

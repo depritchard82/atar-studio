@@ -1,0 +1,15 @@
+Validated JavaScript syntax, local asset references, original Python/JavaScript aggregate parity for all four datasets, inverse curve calculations for every subject at raw 80, individual versus batch parity, best-five selection, invalid inputs, assessment fallbacks, mock adjustment and .xlsx/.xls binary roundtrips using synthetic records. No real student records were used.
+
+Optional WebMCP validation was attempted in the supported browser capability, which reported no tools available. Its browser contract is therefore unverified. Broad visual/browser UI testing was not requested and was not performed. Local HTTP entrypoint returned 200.
+
+Predictions have not been validated against current official ATAR results or subject eligibility rules. Historical dataset year labels were inherited from the source application.
+
+2025 update: checked QTAC report tables 6–7 against rendered pages 8–12. Imported 49 numeric subject rows with five raw/scaled pairs each; excluded 12 withheld rows. General Chinese and SEE Chinese have separate entries. Added source metadata, reported-page provenance and source hash. Extended the Python parity, individual/batch and inverse checks to 2025; added regression checks for Accounting, Mathematical Methods, SEE Chinese and withheld subjects. Verified earlier fitted models were unchanged.
+
+Mock model update: extracted 211 pairs from the eleven primary cohort sheets and ten Engineering pairs from Sheet1 B2:C11. Duplicate scaling-check sheets excluded. Source extraction is limited to the known populated tables in rows 1–250; inflated formatting dimensions are not treated as data. Unlabelled mock-column interpretations and the filename/cohort-year discrepancy remain visible caveats. Source records remain outside the site and repository.
+
+Ten converters enabled; Accounting and English and Literature Extension disabled for insufficient data or effectively flat fit. Leave-one-out fits and cohort-mean baseline computed independently by subject. English and Drama flagged experimental because held-out RMSE exceeded the baseline. No independent future cohort validation is claimed.
+
+Ran validate_mock.mjs: all enabled curves monotone and bounded at every integer input from 0 through 100; correct 25/50 weighted conversions, rounding, internal-total limits, invalid input rejection, extrapolation flags, and Engineering coefficient/error parity. Original validate.mjs still passes for every existing year, including Excel roundtrips.
+
+Local browser workflow checked: twelve-subject evidence table loads, Engineering 55.79% gives rounded 86% and 21.50/25, internal 60 yields 81.50/100 and copies to Individual prediction. Accounting conversion button is disabled. Mathematical Methods shows a contribution out of 50 and an extrapolation notice for mock 100%. Windows preview MIME configuration fixed and verified for .js and .mjs. These are functional browser checks, not comprehensive visual or accessibility QA. Optional WebMCP registration was observed in the corrected preview, but tool execution was not tested.
