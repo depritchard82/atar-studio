@@ -32,7 +32,7 @@ export function rankingsCSV(rows,year) {
   return [['Year','Subject',...bands.map(([k])=>k),'Notes'],...rows.map(r=>[year,r.subject,...bands.map(([k])=>r[k]),r.outside.length?'Unclipped fitted values outside 0–100 in: '+r.outside.join(', '):''])].map(r=>r.map(quote).join(',')).join('\r\n');
 }
 export function initRankings(getModel,getYear) {
-  const button=document.createElement('button');button.dataset.tab='rankings';button.textContent='Subject Rankings';document.querySelector('nav').append(button);
+  const button=document.createElement('button');button.dataset.tab='rankings';button.textContent='Subject Rankings';document.querySelector('nav button[data-tab="compare"]').after(button);
   const panel=document.createElement('section');panel.id='rankings';panel.className='panel';panel.hidden=true;
   document.querySelector('footer').before(panel);
   panel.innerHTML=`<div class="card full"><h2>Compare scaling across score bands</h2><p>Average fitted scaled scores at every integer raw score in each band, using the selected scaling dataset. Raw 100 is excluded, matching your Python calculation.</p><p class="muted">These are equally weighted curve averages, not actual cohort averages or ATAR predictions. Curves extrapolate beyond their source points. Values are not clipped; * marks a band with fitted values outside 0–100.</p><button id="rank-export" disabled>Download rankings CSV</button><p id="rank-status" role="status">Loading rankings…</p><div id="rank-table" class="table-wrap"></div></div>`;
