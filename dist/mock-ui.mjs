@@ -28,13 +28,20 @@ $('#mock').innerHTML = `
     <div id="mock-plot"></div>
     <p class="muted">Teal: fitted conversion. Dashed: unchanged percentage. Shading: observed mock range. Values beyond the shaded range extrapolate; this is not a confidence band.</p>
   </div>
+  <div class="card full" id="science-review">
+    <h2>Science model check: 2025 results</h2>
+    <p>Each option below predicted the same later cohort. Lower error is better; no 2025 results were used to fit the alternatives being tested.</p>
+    <div id="science-review-table"><p>Loading comparison…</p></div>
+    <p class="muted">MAE is the average miss; RMSE gives larger misses more weight. Signed error is prediction minus actual, in percentage points. The 2024 mean is a simple benchmark that ignores the mock score.</p>
+    <p id="science-review-note"></p>
+  </div>
   <div class="card full">
     <h2>Models available now</h2>
     <p id="mock-count"></p>
     <div id="mock-model-table"></div>
-    <p class="muted">Held-out errors use leave-one-out cross-validation: each result is predicted by a model fitted without that result. MAE is the average absolute error; RMSE gives larger errors more weight. These are percentage points, not guarantees or uncertainty intervals. All models still need testing on a new cohort.</p>
+    <p class="muted">Training errors use leave-one-out cross-validation. Biology, Chemistry and Physics also have independent 2024 and 2025 cohort checks. MAE is average absolute error; RMSE gives larger misses more weight. Errors are percentage points, not uncertainty intervals.</p>
     <p class="muted">Experimental models did not beat a cohort-mean baseline on held-out RMSE. They are available for exploration, with that limitation shown. Unavailable subjects are not substituted with another subject’s curve.</p>
-    <details><summary>Sources and how to improve these models</summary><p id="mock-sources"></p><p>For the next update, collect paired mock and real external results for each subject, plus the exam maximum, mock paper, year and cohort. Include a broad range of results. Keep a new cohort separate so we can test whether these curves generalise.</p><p>No student names or individual score pairs are included in this site.</p></details>
+    <details><summary>Sources and how to improve these models</summary><p id="mock-sources"></p><p>For the next update, collect paired mock and real external results for each subject, plus the exam maximum, mock paper, year and cohort. Include a broad range of results. Keep a new cohort separate when testing a revised curve.</p><p>No student names or individual score pairs are included in this site.</p></details>
   </div>`;
 
 const selected = () => catalog.subjects[$('#mock-subject').value];
@@ -61,7 +68,8 @@ function changeSubject() {
   $('#mock-internal').max = 100 - m.externalMaximum;
   $('#mock-internal-max').textContent = `(out of ${100-m.externalMaximum})`;
   $('#mock-convert').disabled = !m.enabled;
-  $('#mock-evidence').innerHTML = `<p><strong>${esc(m.status)} · ${m.n} paired results</strong><br>Observed mocks: ${m.mockRange.map(n=>n.toFixed(1)).join('–')}%. Real external contribution: out of ${m.externalMaximum}.</p>${m.cvMAE == null ? '' : `<p>Held-out MAE: <strong>${m.cvMAE.toFixed(2)} percentage points</strong> (about ${(m.cvMAE*m.externalMaximum/100).toFixed(2)} marks out of ${m.externalMaximum}).</p>`}${m.warnings.map(w=>`<p class="mock-warning">${esc(w)}</p>`).join('')}<details><summary>Model and source details</summary><p>${esc(m.source)} · ${esc(m.sheet)}<br>${esc(m.mapping)}<br>Cohort: ${esc(m.cohort)}</p>${m.parameters ? `<p>External % = 100 / (1 + ${m.parameters[1].toPrecision(7)} × exp(−${m.parameters[2].toPrecision(7)} × mock %)).</p><p>Training R²: ${m.r2.toFixed(3)}. Held-out RMSE: ${m.cvRMSE.toFixed(2)} pp; cohort-mean baseline: ${m.baselineRMSE.toFixed(2)} pp.</p>` : ''}</details>`;
+  const independent = m.independentValidation ? `<p>Independent checks: 2024 MAE <strong>${m.independentValidation['2024'].mae.toFixed(2)} pp</strong> (${m.independentValidation['2024'].n} results); 2025 MAE <strong>${m.independentValidation['2025'].mae.toFixed(2)} pp</strong> (${m.independentValidation['2025'].n} results). These cohorts were not used to fit this curve.</p><p>Across both years, 80% of actual external results were within <strong>±${m.historicalError80.absoluteErrorPP.toFixed(2)} percentage points</strong> of the unrounded estimate. Future papers may differ.</p>` : '';
+  $('#mock-evidence').innerHTML = `<p><strong>${esc(m.status)} · ${m.n} training pairs</strong><br>Observed mocks: ${m.mockRange.map(n=>n.toFixed(1)).join('–')}%. Real external contribution: out of ${m.externalMaximum}.</p>${m.cvMAE == null ? '' : `<p>Training held-out MAE: <strong>${m.cvMAE.toFixed(2)} percentage points</strong> (about ${(m.cvMAE*m.externalMaximum/100).toFixed(2)} marks out of ${m.externalMaximum}).</p>`}${independent}${m.warnings.map(w=>`<p class="mock-warning">${esc(w)}</p>`).join('')}<details><summary>Model and source details</summary><p>${esc(m.source)} · ${esc(m.sheet)}<br>${esc(m.mapping)}<br>Cohort: ${esc(m.cohort)}</p>${m.parameters ? `<p>External % = 100 / (1 + ${m.parameters[1].toPrecision(7)} × exp(−${m.parameters[2].toPrecision(7)} × mock %)).</p><p>Training R²: ${m.r2.toFixed(3)}. Held-out RMSE: ${m.cvRMSE.toFixed(2)} pp; cohort-mean baseline: ${m.baselineRMSE.toFixed(2)} pp.</p>` : ''}</details>`;
   if (!m.enabled) $('#mock-result').innerHTML = '<p>This subject is awaiting more data. No conversion is enabled.</p>';
   plot(m);
 }
@@ -71,7 +79,12 @@ $('#mock-convert').onclick = () => {
     const m = selected();
     currentResult = convertMock(m, $('#mock-percent').value, {roundPercentage:$('#mock-round').checked, internal:$('#mock-internal').value});
     const r = currentResult;
-    $('#mock-result').innerHTML = `<div class="big">${r.usedPercentage.toFixed($('#mock-round').checked?0:1)}%</div><p><strong>${r.externalMark.toFixed(2)} / ${m.externalMaximum}</strong> weighted external marks</p><p class="muted">Unrounded fitted estimate: ${r.estimatedPercentage.toFixed(2)}%.</p>${r.total===null?'':`<p class="mock-total">Projected subject total: <strong>${r.total.toFixed(2)} / 100</strong></p>`}${r.extrapolated?'<p class="mock-warning">Outside the observed mock range. This prediction is an extrapolation and has less support from the supplied data.</p>':''}<p class="muted">${esc(m.status)} estimate based on ${m.n} pairs. Held-out MAE ${m.cvMAE.toFixed(2)} percentage points. This predicts an external result; it is not QTAC subject scaling.</p>`;
+    const evidence = m.historicalError80;
+    const checkedRange = evidence && r.mockPercentage >= evidence.mockRange[0] && r.mockPercentage <= evidence.mockRange[1];
+    const low = checkedRange ? Math.max(0, r.estimatedPercentage - evidence.absoluteErrorPP) * m.externalMaximum / 100 : null;
+    const high = checkedRange ? Math.min(100, r.estimatedPercentage + evidence.absoluteErrorPP) * m.externalMaximum / 100 : null;
+    const history = checkedRange ? `<p class="mock-total">2024–25 historical error guide: <strong>${low.toFixed(2)}–${high.toFixed(2)} / ${m.externalMaximum}</strong>. This span covered 80% of the ${evidence.n} checked results; it is not a guaranteed range for a future exam.</p>` : evidence ? '<p class="muted">No historical error guide at this mock score; it is outside the 2024–25 checked range.</p>' : '';
+    $('#mock-result').innerHTML = `<div class="big">${r.usedPercentage.toFixed($('#mock-round').checked?0:1)}%</div><p><strong>${r.externalMark.toFixed(2)} / ${m.externalMaximum}</strong> weighted external marks</p><p class="muted">Unrounded fitted estimate: ${r.estimatedPercentage.toFixed(2)}%.</p>${history}${r.total===null?'':`<p class="mock-total">Projected subject total: <strong>${r.total.toFixed(2)} / 100</strong></p>`}${r.extrapolated?'<p class="mock-warning">Outside the observed mock range. This prediction is an extrapolation and has less support from the supplied data.</p>':''}<p class="muted">${esc(m.status)} estimate based on ${m.n} training pairs. Training held-out MAE ${m.cvMAE.toFixed(2)} percentage points. This predicts an external result; it is not QTAC subject scaling.</p>`;
     $('#mock-use').hidden = r.total === null;
     plot(m);
   } catch (e) { $('#mock-error').textContent = e.message; plot(selected()); }
@@ -98,8 +111,22 @@ fetch('./mock-models.json').then(r=>{if(!r.ok) throw Error('Could not load mock 
   $('#mock-subject').innerHTML = models.map(m=>`<option value="${esc(m.subject)}">${esc(m.subject)}${m.enabled?'':' — awaiting data'}</option>`).join('');
   $('#mock-subject').disabled = false;
   $('#mock-subject').value = 'Engineering';
-  $('#mock-count').textContent = `${models.filter(m=>m.enabled).length} converters enabled across ${models.length} subjects reviewed, using ${models.reduce((n,m)=>n+m.n,0)} paired results. More data can be added in the next update.`;
-  $('#mock-model-table').innerHTML = `<div class="table-wrap"><table><thead><tr>${['Subject','Pairs','Status','Held-out MAE (pp)','Mock range (%)','External maximum'].map(s=>`<th>${s}</th>`).join('')}</tr></thead><tbody>${models.map(m=>`<tr><td>${esc(m.subject)}</td><td>${m.n}</td><td>${esc(m.status)}</td><td>${m.cvMAE==null?'—':m.cvMAE.toFixed(2)}</td><td>${m.mockRange.map(n=>n.toFixed(1)).join('–')}</td><td>${m.externalMaximum}</td></tr>`).join('')}</tbody></table></div>`;
+  $('#mock-count').textContent = `${models.filter(m=>m.enabled).length} converters enabled across ${models.length} subjects reviewed, using ${models.reduce((n,m)=>n+m.n,0)} training pairs. Another 197 science results were used for independent checks, not refitting.`;
+  $('#mock-model-table').innerHTML = `<div class="table-wrap"><table><thead><tr>${['Subject','Training pairs','Status','Training held-out MAE (pp)','2025 check MAE (pp)','Mock range (%)','External maximum'].map(s=>`<th>${s}</th>`).join('')}</tr></thead><tbody>${models.map(m=>`<tr><td>${esc(m.subject)}</td><td>${m.n}</td><td>${esc(m.status)}</td><td>${m.cvMAE==null?'—':m.cvMAE.toFixed(2)}</td><td>${m.independentValidation?.['2025']?.mae?.toFixed(2)??'—'}</td><td>${m.mockRange.map(n=>n.toFixed(1)).join('–')}</td><td>${m.externalMaximum}</td></tr>`).join('')}</tbody></table></div>`;
   $('#mock-sources').textContent = catalog.sourceNotes + ' Most completion-year labels in scaling comparisons - 2023.xlsx are 2022. Engineering uses the ten supplied percentage pairs; its cohort year is unknown.';
   changeSubject();
 }).catch(e=>{$('#mock-error').textContent=e.message;$('#mock-result').textContent='Models unavailable. Reload to retry.';});
+
+fetch('./science-comparison.json').then(r=>{if(!r.ok) throw Error('Comparison unavailable.');return r.json();}).then(data=>{
+  const labels = {current:'Current curve', fit2024:'Fitted on 2024', mean2024:'2024 cohort mean'};
+  const rows = Object.entries(data.subjects).flatMap(([name, subject]) =>
+    Object.entries(labels).map(([key, label]) => {
+      const m = subject[key];
+      const bar = `<div class="science-error-bar" aria-hidden="true"><i style="width:${Math.min(100,m.rmse/15*100)}%"></i></div>`;
+      return `<tr><th scope="row">${esc(name)}</th><td>${label}</td><td class="num">${m.mae.toFixed(2)}</td><td class="num">${m.rmse.toFixed(2)}${bar}</td><td class="num">${m.bias>0?'+':''}${m.bias.toFixed(2)}</td></tr>`;
+    })
+  );
+  $('#science-review-table').innerHTML = `<div class="table-wrap"><table><thead><tr><th>Subject</th><th>Prediction used for 2025</th><th>MAE (pp)</th><th>RMSE (pp)</th><th>Signed error (pp)</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
+  const chemistry = data.subjects.Chemistry;
+  $('#science-review-note').innerHTML = `<strong>What the check shows:</strong> The current curve has the lowest 2025 RMSE for all three subjects, so it remains in use. Chemistry's average signed error changed from ${chemistry.current2024Bias.toFixed(2)} pp in 2024 to +${chemistry.current2025Bias.toFixed(2)} pp in 2025; different paper difficulty or marking may contribute, but these results cannot identify the cause. The two-year pooled curve was fitted using 2025 results, so it cannot be fairly ranked on this test.`;
+}).catch(()=>{$('#science-review-table').textContent='The comparison could not be loaded. Reload to retry.';});

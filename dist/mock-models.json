@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "method": "100 / (1 + A × exp(−k × mockPercentage)); fixed 0–100 asymptotes, k ≥ 0, least squares",
-  "validation": "Leave-one-out cross-validation, refitting for every omitted pair. Errors are percentage points, not prediction intervals. No independent future cohort validation.",
-  "sourceNotes": "Separate subjects; duplicate scaling-check sheets excluded. Only aggregate coefficients and metrics are published. These are school mock conversions, independent of the selected QTAC scaling year.",
+  "validation": "Original leave-one-out training results plus independent 2024 and 2025 science-cohort checks. Errors are percentage points, not prediction intervals.",
+  "sourceNotes": "Separate subjects; duplicate scaling-check sheets excluded. Only aggregate coefficients and metrics are published. These are school mock conversions, independent of the selected QTAC scaling year. Biology, Chemistry and Physics were independently checked on the supplied 2024 and 2025 science results. The ZIP and separate 2025 mock workbook overlap those workbooks and were not counted again.",
   "subjects": {
     "Mathematical Methods": {
       "subject": "Mathematical Methods",
@@ -71,7 +71,8 @@
       "enabled": true,
       "status": "Provisional",
       "warnings": [
-        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner."
+        "Mock/external column interpretation is inferred from the workbook layout and assessment weights; please confirm with the source owner.",
+        "Independent checks show a cohort shift: the model averaged 5.28 percentage points low in 2024 and 4.18 points high in 2025."
       ],
       "parameters": [
         100,
@@ -81,7 +82,34 @@
       "cvMAE": 3.1588709271769133,
       "cvRMSE": 4.49373981394561,
       "baselineRMSE": 10.722689336043198,
-      "r2": 0.8511226449202091
+      "r2": 0.8511226449202091,
+      "independentValidation": {
+        "2024": {
+          "n": 38,
+          "mae": 6.43,
+          "rmse": 8.36,
+          "bias": -5.28
+        },
+        "2025": {
+          "n": 48,
+          "mae": 5.86,
+          "rmse": 7.26,
+          "bias": 4.18
+        }
+      },
+      "validationNote": "Independent school cohorts; metrics use unrounded predicted percentages and actual external percentages. These records were not used to fit this curve.",
+      "historicalError80": {
+        "n": 86,
+        "absoluteErrorPP": 9.74,
+        "mockRange": [
+          10.8,
+          98.2
+        ],
+        "cohorts": [
+          "2024",
+          "2025"
+        ]
+      }
     },
     "Physics": {
       "subject": "Physics",
@@ -108,7 +136,34 @@
       "cvMAE": 3.293744666100824,
       "cvRMSE": 4.687966709278075,
       "baselineRMSE": 9.800273030580469,
-      "r2": 0.7965275624873001
+      "r2": 0.7965275624873001,
+      "independentValidation": {
+        "2024": {
+          "n": 32,
+          "mae": 4.84,
+          "rmse": 5.8,
+          "bias": -1.21
+        },
+        "2025": {
+          "n": 35,
+          "mae": 3.12,
+          "rmse": 3.8,
+          "bias": -1.68
+        }
+      },
+      "validationNote": "Independent school cohorts; metrics use unrounded predicted percentages and actual external percentages. These records were not used to fit this curve.",
+      "historicalError80": {
+        "n": 67,
+        "absoluteErrorPP": 6.22,
+        "mockRange": [
+          12.78,
+          91.67
+        ],
+        "cohorts": [
+          "2024",
+          "2025"
+        ]
+      }
     },
     "Biology": {
       "subject": "Biology",
@@ -135,7 +190,34 @@
       "cvMAE": 3.827291444189241,
       "cvRMSE": 5.004532198593556,
       "baselineRMSE": 9.478044805408619,
-      "r2": 0.7353731467973388
+      "r2": 0.7353731467973388,
+      "independentValidation": {
+        "2024": {
+          "n": 20,
+          "mae": 6.03,
+          "rmse": 7.91,
+          "bias": 0.77
+        },
+        "2025": {
+          "n": 24,
+          "mae": 2.76,
+          "rmse": 3.64,
+          "bias": 0.49
+        }
+      },
+      "validationNote": "Independent school cohorts; metrics use unrounded predicted percentages and actual external percentages. These records were not used to fit this curve.",
+      "historicalError80": {
+        "n": 44,
+        "absoluteErrorPP": 7.57,
+        "mockRange": [
+          13.0,
+          86.9
+        ],
+        "cohorts": [
+          "2024",
+          "2025"
+        ]
+      }
     },
     "Accounting": {
       "subject": "Accounting",
