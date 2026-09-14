@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import {convertMock} from '../dist/mock-engine.mjs';
 const {subjects} = JSON.parse(fs.readFileSync('dist/mock-models.json', 'utf8'));
 assert.equal(Object.keys(subjects).length, 12);
-assert.equal(Object.values(subjects).reduce((n,m)=>n+m.n,0), 221);
+assert.equal(Object.values(subjects).reduce((n,m)=>n+m.n,0), 418);
 assert.equal(Object.values(subjects).filter(m=>m.enabled).length, 10);
 for (const m of Object.values(subjects)) {
   if (!m.enabled) { assert.throws(()=>convertMock(m,60),/more data/); continue; }
@@ -28,16 +28,17 @@ assert.equal(engineering.externalMark,21.5);
 assert.equal(engineering.total,81.5);
 assert.ok(Math.abs(subjects.Engineering.parameters[1]-2.4189)<.001);
 assert.ok(Math.abs(subjects.Engineering.cvMAE-7.52316)<.001);
-assert.ok(Math.abs(subjects.Chemistry.cvMAE-3.16)<.01);
+assert.ok(Math.abs(subjects.Chemistry.cvRMSE-6.06)<.01);
 assert.equal(subjects.English.status,'Experimental');
 assert.equal(subjects.Drama.status,'Experimental');
-assert.equal(['Biology','Chemistry','Physics'].reduce((n,name)=>n+Object.values(subjects[name].independentValidation).reduce((sum,year)=>sum+year.n,0),0),197);
-assert.equal(subjects.Biology.independentValidation['2025'].mae,2.76);
-assert.equal(subjects.Chemistry.independentValidation['2025'].mae,5.86);
-assert.equal(subjects.Physics.independentValidation['2025'].mae,3.12);
-assert.equal(subjects.Biology.historicalError80.absoluteErrorPP,7.57);
-assert.equal(subjects.Chemistry.historicalError80.absoluteErrorPP,9.74);
-assert.equal(subjects.Physics.historicalError80.absoluteErrorPP,6.22);
+assert.equal(['Biology','Chemistry','Physics'].reduce((n,name)=>n+subjects[name].pooledTraining['2024'].n+subjects[name].pooledTraining['2025'].n,0),197);
+assert.equal(subjects.Biology.pooledTraining['2025'].mae,2.69);
+assert.equal(subjects.Chemistry.pooledTraining['2025'].mae,5.45);
+assert.equal(subjects.Physics.pooledTraining['2025'].mae,2.8);
+for (const name of ['Biology','Chemistry','Physics']) {
+  assert.equal(subjects[name].independentValidation,undefined);
+  assert.equal(subjects[name].historicalError80.basis,'in-sample training results');
+}
 const methods = convertMock(subjects['Mathematical Methods'],60,{roundPercentage:false});
 assert.equal(methods.externalMark,methods.usedPercentage/2);
 const ui = fs.readFileSync('dist/mock-ui.mjs','utf8');
@@ -51,6 +52,9 @@ for (const subject of ['Biology','Chemistry','Physics']) {
   const item = pooled.subjects[subject];
   assert.equal(Object.values(item.counts).reduce((a,b)=>a+b,0), item.pooledInSample.earlier.n + item.pooledInSample['2024'].n + item.pooledInSample['2025'].n);
   assert.ok(item.earlierPlus2024Test2025.rmse > 0);
+  assert.equal(subjects[subject].n,Object.values(item.counts).reduce((a,b)=>a+b,0));
+  assert.ok(Math.abs(subjects[subject].parameters[1]-item.pooledParameters[1])<1e-6);
+  assert.ok(Math.abs(subjects[subject].parameters[2]-item.pooledParameters[2])<1e-6);
 }
 const comparison = JSON.parse(fs.readFileSync('dist/science-comparison.json','utf8'));
 assert.deepEqual(Object.keys(comparison.subjects).sort(),['Biology','Chemistry','Physics']);
