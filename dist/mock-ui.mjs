@@ -35,6 +35,13 @@ $('#mock').innerHTML = `
     <p class="muted">MAE is the average miss; RMSE gives larger misses more weight. Signed error is prediction minus actual, in percentage points. The 2024 mean is a simple benchmark that ignores the mock score.</p>
     <p id="science-review-note"></p>
   </div>
+  <div class="card full" id="science-pooled">
+    <h2>Science curves using all available results</h2>
+    <p>The earlier workbook, 2024 and 2025 provide three sets of paired results. The all-data curves below are candidates. To check how they might travel to a different year, each test curve was fitted without the year being tested.</p>
+    <div id="science-pooled-table"><p>Loading pooled comparison…</p></div>
+    <p class="muted">RMSE is in percentage points. The all-data curve has seen every result, so its fit to those same results is not a forecast test. The earlier workbook is mostly labelled completion year 2022, although its filename says 2023.</p>
+    <p id="science-pooled-note"></p>
+  </div>
   <div class="card full">
     <h2>Models available now</h2>
     <p id="mock-count"></p>
@@ -130,3 +137,9 @@ fetch('./science-comparison.json').then(r=>{if(!r.ok) throw Error('Comparison un
   const chemistry = data.subjects.Chemistry;
   $('#science-review-note').innerHTML = `<strong>What the check shows:</strong> The current curve has the lowest 2025 RMSE for all three subjects, so it remains in use. Chemistry's average signed error changed from ${chemistry.current2024Bias.toFixed(2)} pp in 2024 to +${chemistry.current2025Bias.toFixed(2)} pp in 2025; different paper difficulty or marking may contribute, but these results cannot identify the cause. The two-year pooled curve was fitted using 2025 results, so it cannot be fairly ranked on this test.`;
 }).catch(()=>{$('#science-review-table').textContent='The comparison could not be loaded. Reload to retry.';});
+
+fetch('./science-all-cohorts.json').then(r=>{if(!r.ok) throw Error('Pooled comparison unavailable.');return r.json();}).then(data=>{
+  const rows = Object.entries(data.subjects).map(([name, item]) => `<tr><th scope="row">${esc(name)}</th><td class="num">${Object.values(item.counts).reduce((a,b)=>a+b,0)}</td><td class="num">${item.currentHeldOut['2024'].rmse.toFixed(2)}</td><td class="num">${item.earlierPlus2025Test2024.rmse.toFixed(2)}</td><td class="num">${item.currentHeldOut['2025'].rmse.toFixed(2)}</td><td class="num">${item.earlierPlus2024Test2025.rmse.toFixed(2)}</td></tr>`);
+  $('#science-pooled-table').innerHTML = `<div class="table-wrap"><table><thead><tr><th>Subject</th><th>All pairs</th><th>Current on 2024</th><th>Earlier + 2025 on 2024</th><th>Current on 2025</th><th>Earlier + 2024 on 2025</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
+  $('#science-pooled-note').textContent = 'The pooled candidates improve the fit to known results, but the year-held-out checks do not consistently beat the current curves. Chemistry changes most between cohorts. The current curves remain the default best guess until a pooled approach proves more reliable on a new cohort.';
+}).catch(()=>{$('#science-pooled-table').textContent='The pooled comparison could not be loaded. Reload to retry.';});
