@@ -42,9 +42,16 @@ const methods = convertMock(subjects['Mathematical Methods'],60,{roundPercentage
 assert.equal(methods.externalMark,methods.usedPercentage/2);
 const ui = fs.readFileSync('dist/mock-ui.mjs','utf8');
 assert.ok(!/localStorage|sendBeacon|XMLHttpRequest/.test(ui));
-assert.equal((ui.match(/fetch\(/g)||[]).length,2);
+assert.equal((ui.match(/fetch\(/g)||[]).length,3);
 assert.ok(ui.includes("fetch('./mock-models.json')"));
 assert.ok(ui.includes("fetch('./science-comparison.json')"));
+assert.ok(ui.includes("fetch('./science-all-cohorts.json')"));
+const pooled = JSON.parse(fs.readFileSync('dist/science-all-cohorts.json','utf8'));
+for (const subject of ['Biology','Chemistry','Physics']) {
+  const item = pooled.subjects[subject];
+  assert.equal(Object.values(item.counts).reduce((a,b)=>a+b,0), item.pooledInSample.earlier.n + item.pooledInSample['2024'].n + item.pooledInSample['2025'].n);
+  assert.ok(item.earlierPlus2024Test2025.rmse > 0);
+}
 const comparison = JSON.parse(fs.readFileSync('dist/science-comparison.json','utf8'));
 assert.deepEqual(Object.keys(comparison.subjects).sort(),['Biology','Chemistry','Physics']);
 for (const subject of Object.values(comparison.subjects)) {

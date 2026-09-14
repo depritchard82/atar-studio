@@ -1,0 +1,179 @@
+{
+  "description": "Aggregate-only pooled science comparison. Earlier workbook is mostly completion year 2022 despite its 2023 filename. The pooled fit uses all three cohorts; its errors on those cohorts are in-sample.",
+  "subjects": {
+    "Biology": {
+      "counts": {
+        "earlier": 25,
+        "2024": 20,
+        "2025": 24
+      },
+      "pooledParameters": [
+        100,
+        0.9687468535404026,
+        0.02685161743102829
+      ],
+      "pooledInSample": {
+        "earlier": {
+          "n": 25,
+          "mae": 3.62,
+          "rmse": 4.7,
+          "bias": -0.39
+        },
+        "2024": {
+          "n": 20,
+          "mae": 5.97,
+          "rmse": 7.87,
+          "bias": 0.15
+        },
+        "2025": {
+          "n": 24,
+          "mae": 2.69,
+          "rmse": 3.6,
+          "bias": 0.23
+        }
+      },
+      "currentHeldOut": {
+        "2024": {
+          "n": 20,
+          "mae": 6.03,
+          "rmse": 7.91,
+          "bias": 0.77
+        },
+        "2025": {
+          "n": 24,
+          "mae": 2.76,
+          "rmse": 3.64,
+          "bias": 0.49
+        }
+      },
+      "earlierPlus2024Test2025": {
+        "n": 24,
+        "mae": 2.72,
+        "rmse": 3.63,
+        "bias": 0.48
+      },
+      "earlierPlus2025Test2024": {
+        "n": 20,
+        "mae": 5.98,
+        "rmse": 7.89,
+        "bias": 0.45
+      }
+    },
+    "Chemistry": {
+      "counts": {
+        "earlier": 32,
+        "2024": 38,
+        "2025": 48
+      },
+      "pooledParameters": [
+        100,
+        0.5949648620981581,
+        0.021548878902236158
+      ],
+      "pooledInSample": {
+        "earlier": {
+          "n": 32,
+          "mae": 3.88,
+          "rmse": 5.11,
+          "bias": -0.61
+        },
+        "2024": {
+          "n": 38,
+          "mae": 4.52,
+          "rmse": 5.66,
+          "bias": -3.75
+        },
+        "2025": {
+          "n": 48,
+          "mae": 5.45,
+          "rmse": 6.66,
+          "bias": 3.11
+        }
+      },
+      "currentHeldOut": {
+        "2024": {
+          "n": 38,
+          "mae": 6.43,
+          "rmse": 8.36,
+          "bias": -5.28
+        },
+        "2025": {
+          "n": 48,
+          "mae": 5.86,
+          "rmse": 7.26,
+          "bias": 4.18
+        }
+      },
+      "earlierPlus2024Test2025": {
+        "n": 48,
+        "mae": 6.58,
+        "rmse": 8.13,
+        "bias": 5.54
+      },
+      "earlierPlus2025Test2024": {
+        "n": 38,
+        "mae": 7.15,
+        "rmse": 8.88,
+        "bias": -7.01
+      }
+    },
+    "Physics": {
+      "counts": {
+        "earlier": 22,
+        "2024": 32,
+        "2025": 35
+      },
+      "pooledParameters": [
+        100,
+        0.8471220478811239,
+        0.031011558715018067
+      ],
+      "pooledInSample": {
+        "earlier": {
+          "n": 22,
+          "mae": 3.38,
+          "rmse": 4.35,
+          "bias": 1.08
+        },
+        "2024": {
+          "n": 32,
+          "mae": 4.71,
+          "rmse": 5.69,
+          "bias": -0.18
+        },
+        "2025": {
+          "n": 35,
+          "mae": 2.8,
+          "rmse": 3.46,
+          "bias": -0.61
+        }
+      },
+      "currentHeldOut": {
+        "2024": {
+          "n": 32,
+          "mae": 4.84,
+          "rmse": 5.8,
+          "bias": -1.21
+        },
+        "2025": {
+          "n": 35,
+          "mae": 3.12,
+          "rmse": 3.8,
+          "bias": -1.68
+        }
+      },
+      "earlierPlus2024Test2025": {
+        "n": 35,
+        "mae": 3.08,
+        "rmse": 3.89,
+        "bias": -0.89
+      },
+      "earlierPlus2025Test2024": {
+        "n": 32,
+        "mae": 5.3,
+        "rmse": 6.18,
+        "bias": 0.31
+      }
+    }
+  }
+}
