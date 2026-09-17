@@ -121,7 +121,7 @@ fetch('./mock-models.json').then(r=>{if(!r.ok) throw Error('Could not load mock 
   $('#mock-subject').value = 'Engineering';
   $('#mock-count').textContent = `${models.filter(m=>m.enabled).length} converters enabled across ${models.length} subjects reviewed, using ${models.reduce((n,m)=>n+m.n,0)} training pairs. The 2024 and 2025 science results are included in that total.`;
   $('#mock-model-table').innerHTML = `<div class="table-wrap"><table><thead><tr>${['Subject','Training pairs','Status','Leave-one-student-out MAE (pp)','2025 fit MAE (pp)','Mock range (%)','External maximum'].map(s=>`<th>${s}</th>`).join('')}</tr></thead><tbody>${models.map(m=>`<tr><td>${esc(m.subject)}</td><td>${m.n}</td><td>${esc(m.status)}</td><td>${m.cvMAE==null?'—':m.cvMAE.toFixed(2)}</td><td>${m.pooledTraining?.['2025']?.mae?.toFixed(2)??'—'}</td><td>${m.mockRange.map(n=>n.toFixed(1)).join('–')}</td><td>${m.externalMaximum}</td></tr>`).join('')}</tbody></table></div>`;
-  $('#mock-sources').textContent = catalog.sourceNotes + ' Most completion-year labels in scaling comparisons - 2023.xlsx are 2022. Engineering uses the ten supplied percentage pairs; its cohort year is unknown.';
+  $('#mock-sources').textContent = catalog.sourceNotes + ' Most completion-year labels in scaling comparisons - 2023.xlsx are 2022. The combined Mathematics workbook does not label its component years. Engineering uses the ten supplied percentage pairs; its cohort year is unknown.';
   changeSubject();
 }).catch(e=>{$('#mock-error').textContent=e.message;$('#mock-result').textContent='Models unavailable. Reload to retry.';});
 
