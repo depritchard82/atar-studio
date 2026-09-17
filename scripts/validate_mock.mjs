@@ -2,9 +2,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {convertMock} from '../dist/mock-engine.mjs';
 const {subjects} = JSON.parse(fs.readFileSync('dist/mock-models.json', 'utf8'));
-assert.equal(Object.keys(subjects).length, 12);
-assert.equal(Object.values(subjects).reduce((n,m)=>n+m.n,0), 418);
-assert.equal(Object.values(subjects).filter(m=>m.enabled).length, 10);
+assert.equal(Object.keys(subjects).length, 13);
+assert.equal(Object.values(subjects).reduce((n,m)=>n+m.n,0), 602);
+assert.equal(Object.values(subjects).filter(m=>m.enabled).length, 11);
 for (const m of Object.values(subjects)) {
   if (!m.enabled) { assert.throws(()=>convertMock(m,60),/more data/); continue; }
   let previous = -1;
@@ -41,6 +41,12 @@ for (const name of ['Biology','Chemistry','Physics']) {
 }
 const methods = convertMock(subjects['Mathematical Methods'],60,{roundPercentage:false});
 assert.equal(methods.externalMark,methods.usedPercentage/2);
+assert.equal(subjects['Mathematical Methods'].n,127);
+assert.equal(subjects['General Mathematics'].n,45);
+assert.equal(subjects['Specialist Mathematics'].n,71);
+assert.ok(Math.abs(subjects['Mathematical Methods'].cvRMSE-7.07)<.01);
+assert.ok(Math.abs(subjects['General Mathematics'].cvRMSE-6.22)<.01);
+assert.ok(Math.abs(subjects['Specialist Mathematics'].cvRMSE-6.94)<.01);
 const ui = fs.readFileSync('dist/mock-ui.mjs','utf8');
 assert.ok(!/localStorage|sendBeacon|XMLHttpRequest/.test(ui));
 assert.equal((ui.match(/fetch\(/g)||[]).length,3);
@@ -68,4 +74,4 @@ for (const subject of Object.values(comparison.subjects)) {
 assert.equal(comparison.subjects.Chemistry.current2024Bias,-5.28);
 assert.equal(comparison.subjects.Chemistry.current2025Bias,4.18);
 assert.ok(!/student|surname|first name|identifier/i.test(JSON.stringify(comparison.subjects)));
-console.log('12 subjects, 10 active models; boundaries, units, rounding, invalid inputs, Engineering source parity and privacy checks passed.');
+console.log('13 subjects, 11 active models; units, rounding, invalid inputs, Engineering source parity and privacy checks passed.');
