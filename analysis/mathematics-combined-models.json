@@ -1,0 +1,53 @@
+{
+  "description": "Aggregate-only Mathematics model results; no student records or score pairs",
+  "subjects": {
+    "Mathematical Methods": {
+      "n": 127,
+      "mockRange": [
+        11.363636363636363,
+        97.14285714285714
+      ],
+      "parameters": [
+        100,
+        2.0151901844360873,
+        0.045821885221097834
+      ],
+      "cvMAE": 5.026535125558518,
+      "cvRMSE": 7.070710466681355,
+      "baselineRMSE": 16.324268235792818,
+      "r2": 0.8174525511583881
+    },
+    "General Mathematics": {
+      "n": 45,
+      "mockRange": [
+        22.68041237113402,
+        89.69072164948454
+      ],
+      "parameters": [
+        100,
+        0.9011372518641139,
+        0.01690076150646307
+      ],
+      "cvMAE": 5.092132429729845,
+      "cvRMSE": 6.218970615180273,
+      "baselineRMSE": 8.543761921343258,
+      "r2": 0.4989002642902307
+    },
+    "Specialist Mathematics": {
+      "n": 71,
+      "mockRange": [
+        16.666666666666664,
+        95.3125
+      ],
+      "parameters": [
+        100,
+        0.9659951914839742,
+        0.026251275765733228
+      ],
+      "cvMAE": 5.087554622643098,
+      "cvRMSE": 6.937862945833817,
+      "baselineRMSE": 11.46066921150376,
+      "r2": 0.6476035821961459
+    }
+  }
+}
